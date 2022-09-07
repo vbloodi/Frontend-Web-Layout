@@ -1,2 +1,2 @@
 # Skillbox
-Skillbox Frontend Course
+Skillbox Frontend Course — Web Layout

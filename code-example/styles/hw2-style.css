@@ -1,0 +1,116 @@
+/* h1.main-title {
+  color: white;
+  background-color: black;
+} */
+/* html {
+  font-size: 16px;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  text-align: right;
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* rem умножает основной размер шрифта html на значение rem, а em размер шрифта родительского элемента */
+p {
+  text-indent: 30px;
+  white-space: wrap;
+  word-spacing: unset;
+  font-size: 0.8rem;
+  color: white;
+  background-color: black;
+  /* letter-spacing: 1px; */
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 46px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 3px 1px 2px red;
+}
+/* #course-program {
+  color: orange;
+}
+*/
+/* Каскад тегов. Исп. не желательно. */
+/* p strong {
+  color: blue;
+} */
+
+/* !important исп. только если невозможно изм. порядок подключения стилей. */
+.blue {
+  color: rgba(0, 55, 255, 0.9) !important;
+}
+
+.background-kitten {
+  background-image: url(/home-work-1/imgs/kitten-playing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -170px;
+}
+
+/*
+img {
+  opacity: 0.5;
+  visibility: hidden;
+} */
+
+.red {
+  color: rgb(255, 0, 0);
+}
+
+.parent {
+  background-color: red;
+}
+
+.child {
+  background-color: blue;
+}
+
+.parent,
+.child {
+  /* width: 50%; */
+  /* vw - viewport width, vh - viewport height */
+  width: 50%;
+}
+
+.block-model {
+  box-sizing: content-box;
+  display: inline-block;
+  width: 400px;
+  min-height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+  padding: 20px 10px;
+  padding-right: 6px;
+  border-top: 4px solid #666;
+  border-right: 2px dashed #666;
+  border-left: 2px dashed #666;
+  border-bottom: 12px solid #666;
+  border-radius: 12px;
+  background-color: #f1f1f1;
+}
+
+.position-scene div {
+  background-color: #d6d6d6;
+  height: 100px;
+}

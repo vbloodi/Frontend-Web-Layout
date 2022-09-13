@@ -34,6 +34,10 @@
   font-style: normal;
 }
 
+/* =============== */
+/*  Common Styles  */
+/* =============== */
+
 * {
   box-sizing: border-box;
 }
@@ -52,6 +56,37 @@ h3 {
   margin: 0;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 1170px;
+}
+
+.back-link {
+  padding-left: 44px;
+  font-size: 18px;
+  background-image: url("../img/return.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color: #222020;
+}
+
+.button {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 28px 84px;
+  border: 3px solid #2f1ce4;
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #2f1ce4;
+  cursor: pointer;
+}
+
+/* ================== */
+/*  Main Menu Styles  */
+/* ================== */
 .mm-link {
   color: rgba(70, 100, 200, 0.9);
 }
@@ -66,114 +101,25 @@ h3 {
 }
 
 .mm-title {
-  color: white;
-  font-family: "Graphik LCG", sans-serif;
-  font-size: 22px;
   margin-bottom: 20px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  font-family: "Graphik LCG", sans-serif;
+  font-size: 22px;
   text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, -2px 2px 0 #000,
     2px -2px 0 #000;
+  color: white;
 }
 
 .mm-homework {
   font-weight: 400;
-  color: black;
   text-shadow: 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0 #fff,
     1px -1px 0 #fff;
+  color: black;
 }
 
-.modules-body {
-  background-image: url(../img/bottom-figure.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  min-height: 2260px;
-}
-
-.course-name {
-  font-size: 40px;
-  font-family: "Graphik LCG", sans-serif;
-  font-weight: 400;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  color: #222020;
-}
-
-.modules {
-  width: 1024px;
-  margin: 80px;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  /* font-size: 0; */
-}
-
-.child {
-  display: inline-block;
-  width: 480px;
-  min-height: 506px;
-  margin-right: 60px;
-  margin-bottom: 60px;
-  vertical-align: middle;
-  position: relative;
-  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-.child h3 {
-  color: #2f1ce4;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.child p {
-  color: #222020;
-  font-size: 16px;
-}
-
-.child-text {
-  padding-top: 30px;
-  padding-left: 46px;
-}
-
-.right {
-  margin-right: 0;
-}
-
-.number {
-  position: absolute;
-  font-weight: 500;
-  right: 24px;
-  bottom: 30px;
-  font-size: 48px;
-  color: #eaeaea;
-}
-
-.btn-center {
-  text-align: center;
-}
-
-.button {
-  margin-top: 40px;
-  margin-bottom: 60px;
-  background-color: #fff;
-  color: #2f1ce4;
-  border: 3px solid #2f1ce4;
-  padding: 28px 84px;
-  font-family: "Gilroy", sans-serif;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.modules-title {
-  padding-left: 20px;
-  margin-top: 105px;
-  margin-bottom: 90px;
-  font-size: 48px;
-  font-weight: 900;
-  color: #222020;
-}
+/* =================== */
+/*  index.html Styles  */
+/* =================== */
 
 .main-content {
   display: flex;
@@ -185,45 +131,33 @@ h3 {
 }
 
 .header-text > h1 {
-  color: white;
+  margin-bottom: 30px;
   font-family: "Graphik LCG", sans-serif;
   font-size: 36px;
-  margin-bottom: 30px;
+  color: white;
 }
 
 .download-link {
   display: inline-block;
-  font-weight: 400;
   padding: 20px;
+  border: 3px solid #2f1ce4;
+  font-weight: 400;
   color: white;
   background-color: #2f1ce4;
-  border: 3px solid #2f1ce4;
 }
 
 .about {
   display: inline-block;
-  font-weight: 400;
   padding: 20px;
-  color: white;
   border: transparent;
   border: 3px solid white;
+  font-weight: 400;
+  color: white;
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  padding: 30px 0;
-}
-
-.back-link {
-  padding-left: 44px;
-  font-size: 18px;
-  background-image: url("../img/return.png");
-  background-position: left center;
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  color: #222020;
-}
+/* ===================== */
+/*  program.html Styles  */
+/* ===================== */
 
 .program-title > h1 {
   margin-top: 100px;
@@ -233,11 +167,11 @@ h3 {
 }
 
 .program-subtitle {
+  margin-top: 100px;
+  margin-bottom: 25px;
   padding-left: 180px;
   font-size: 36px;
   color: #2f1ce4;
-  margin-top: 100px;
-  margin-bottom: 25px;
 }
 
 .program-list {
@@ -246,8 +180,8 @@ h3 {
 }
 
 .program-text {
-  padding-left: 180px;
   margin-bottom: 20px;
+  padding-left: 180px;
 }
 
 .table,
@@ -267,8 +201,93 @@ h3 {
 }
 
 .img-figure {
-  padding-left: 200px;
-  text-align: center;
   display: inline-block;
   margin: 50px auto;
+  padding-left: 200px;
+  text-align: center;
+}
+
+/* ===================== */
+/*  modules.html Styles  */
+/* ===================== */
+
+.modules-body {
+  min-height: 2260px;
+  background-image: url("../img/bottom-figure.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.course-name {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-family: "Graphik LCG", sans-serif;
+  font-weight: 400;
+  color: #222020;
+}
+
+.modules {
+  margin: 80px;
+  width: 1024px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* font-size: 0; */
+}
+
+.child {
+  position: relative;
+  display: inline-block;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  width: 480px;
+  min-height: 506px;
+  vertical-align: middle;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.child h3 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.child p {
+  font-size: 16px;
+  color: #222020;
+}
+
+.child-text {
+  padding-top: 30px;
+  padding-left: 46px;
+}
+
+.right {
+  margin-right: 0;
+}
+
+.number {
+  position: absolute;
+  right: 24px;
+  bottom: 30px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #eaeaea;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.modules-title {
+  margin-top: 105px;
+  margin-bottom: 90px;
+  padding-left: 20px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #222020;
 }

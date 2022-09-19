@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/hw4-style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Lionic — Legal Solution</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <a class="logo" href="">
           <img
             class="logo-img"
@@ -29,29 +30,31 @@
             <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
           </ul>
         </nav>
-        <a href="" class="btn">FREE TRIAL</a>
+        <a href="" class="btn header-btn">FREE TRIAL</a>
       </div>
     </header>
     <main>
       <section class="section-hero">
-        <div class="container">
-          <h1 class="section-hero-heading">
-            This is simply a smarter way to make your legal online
-          </h1>
-          <p class="section-hero-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            eveniet nulla corrupti sint quaerat voluptas.
-          </p>
-          <a href="" class="btn">FREE 30 DAY TRIAL</a>
-          <div class="section-hero-btn-description">
-            <span class="section-hero-ssl-icon"></span>SSL SECURED CONNECTION
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="section-hero-heading">
+              This is simply a smarter way to make your legal online
+            </h1>
+            <p class="section-hero-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              eveniet nulla corrupti sint quaerat voluptas.
+            </p>
+            <a href="" class="btn">FREE 30 DAY TRIAL</a>
+            <div class="section-hero-btn-description">
+              <span class="section-hero-ssl-icon"></span>SSL SECURED CONNECTION
+            </div>
           </div>
         </div>
       </section>
       <section class="section-do">
         <div class="container">
-          <h2 class="section-heading">What We Do</h2>
-          <p class="section-description">
+          <h2 class="section-heading text-center">What We Do</h2>
+          <p class="section-description text-center">
             Lionic guides you on making decisions for all aspects of your
             end-of-life plans.
           </p>
@@ -184,11 +187,7 @@
                 autem pariatur!
               </p>
               <div class="section-clients-user">
-                <img
-                  src="img/user-img.svg"
-                  alt=""
-                  class="section-clients-avatar"
-                />
+                <img class="section-clients-avatar" src="img/user.jpg" alt="" />
                 <div class="section-clients-user-info">
                   <div class="section-clients-username">John Armstrong</div>
                   <div class="section-clients-user-description">Customer</div>
@@ -202,11 +201,7 @@
                 voluptate possimus expedita voluptatibus blanditiis hic nam!
               </p>
               <div class="section-clients-user">
-                <img
-                  src="img/user-img.svg"
-                  alt=""
-                  class="section-clients-avatar"
-                />
+                <img class="section-clients-avatar" src="img/user.jpg" alt="" />
                 <div class="section-clients-user-info">
                   <div class="section-clients-username">Elizabeth Martin</div>
                   <div class="section-clients-user-description">Customer</div>
@@ -219,11 +214,7 @@
                 Aliquam recusandae quod dolore distinctio aut. Blanditiis.
               </p>
               <div class="section-clients-user">
-                <img
-                  src="img/user-img.svg"
-                  alt=""
-                  class="section-clients-avatar"
-                />
+                <img class="section-clients-avatar" src="img/user.jpg" alt="" />
                 <div class="section-clients-user-info">
                   <div class="section-clients-username">Johnny Wick</div>
                   <div class="section-clients-user-description">Customer</div>
@@ -234,46 +225,58 @@
         </div>
       </section>
       <section class="section-contacts">
-        <h2 class="section-contacts-heading">Contacts</h2>
-        <ul class="section-contacts-list">
-          <li class="section-contacts-item">
-            <span class="section-contacts-icon"></span>
-            <strong class="section-contacts-heading">Visit Us</strong>
-            <div class="section-contacts-info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus, amet.
-            </div>
-          </li>
-          <li class="section-contacts-item">
-            <span class="section-contacts-icon"></span>
-            <strong class="section-contacts-heading">Call Us</strong>
-            <div class="section-contacts-info">
-              <a class="section-contacts-link" href="tel:+79876543210"
-                >+7 (987) 654-32-10</a
-              >
-              <br />
-              <a class="section-contacts-link" href="tel:+71234567890"
-                >+7 (123) 456-78-90</a
-              >
-            </div>
-          </li>
-          <li class="section-contacts-item">
-            <span class="section-contacts-icon"></span>
-            <strong class="section-contacts-heading">Email Us</strong>
-            <div class="section-contacts-info">
-              <a class="section-contacts-link" href="mailto:example@example.com"
-                >example@example.com</a
-              >
-              <a class="section-contacts-link" href="mailto:support@example.com"
-                >support@example.com</a
-              >
-            </div>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-contacts-heading">Contacts</h2>
+          <ul class="section-contacts-list">
+            <li class="section-contacts-item">
+              <span
+                class="section-contacts-icon section-contacts-icon-gps"
+              ></span>
+              <strong class="section-contacts-heading">Visit Us</strong>
+              <div class="section-contacts-info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, amet.
+              </div>
+            </li>
+            <li class="section-contacts-item">
+              <span
+                class="section-contacts-icon section-contacts-icon-phone"
+              ></span>
+              <strong class="section-contacts-heading">Call Us</strong>
+              <div class="section-contacts-info">
+                <a class="section-contacts-link" href="tel:+79876543210"
+                  >+7 (987) 654-32-10</a
+                >
+                <br />
+                <a class="section-contacts-link" href="tel:+71234567890"
+                  >+7 (123) 456-78-90</a
+                >
+              </div>
+            </li>
+            <li class="section-contacts-item">
+              <span
+                class="section-contacts-icon section-contacts-icon-mail"
+              ></span>
+              <strong class="section-contacts-heading">Email Us</strong>
+              <div class="section-contacts-info">
+                <a
+                  class="section-contacts-link"
+                  href="mailto:example@example.com"
+                  >example@example.com</a
+                >
+                <a
+                  class="section-contacts-link"
+                  href="mailto:support@example.com"
+                  >support@example.com</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer-left">
           <a class="footer-logo" href="">
             <img

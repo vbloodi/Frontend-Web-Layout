@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.section-title {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* Header */
+
+.header-container {
+  margin-top: 30px;
+}
+
+.header-upper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  margin-right: 40px;
+}
+
+.header-login {
+  margin-right: auto;
+}
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:first-child {
+  margin-left: 45px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-btn-left {
+  margin-left: 114px;
+}
+
+.header-btn-right {
+  margin-left: 40px;
+}
+
+/* Hero */
+
+.section-hero-container {
+  margin-top: 70px;
+}
+
+.section-hero-list {
+  display: flex;
+}
+
+.section-hero-item {
+  flex-direction: column;
+  flex: 1 1 25%;
+}

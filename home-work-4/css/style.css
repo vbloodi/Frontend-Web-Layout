@@ -74,11 +74,11 @@ img {
 }
 
 .section-hero-left {
-  width: 50%;
+  flex: 1 1 50%;
 }
 
 .section-hero-right {
-  width: 50%;
+  flex: 1 1 50%;
 }
 
 /* About */
@@ -91,7 +91,7 @@ img {
 }
 
 .section-services-item {
-  width: 50%;
+  flex: 1 1 50%;
 }
 
 /* Benefits */
@@ -102,7 +102,11 @@ img {
 }
 
 .section-benefits-item {
-  width: 25%;
+  flex: 1 1 25%;
+}
+
+.section-benefits-text {
+  max-width: 250px;
 }
 
 /* Location  */
@@ -113,5 +117,5 @@ img {
 }
 
 .section-location-item {
-  width: 33.33%;
+  flex: 1 1 33.33%;
 }

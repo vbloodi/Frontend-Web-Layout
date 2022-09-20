@@ -1,9 +1,49 @@
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerLight.woff2") format("woff2"),
+    url("../fonts/MullerLight.woff.woff") format("woff");
+  font-display: swap;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Muller";
+}
+
+body {
+  background: #F1F1F1;
 }
 
 a {
@@ -29,21 +69,42 @@ img {
 }
 
 .btn {
-  display: inline-block;
   padding: 13px 20px;
-  border: 1px solid #cc9933;
+  background: #FFFFFF;
+  border: 1px solid #CC9933;
   border-radius: 10px;
+}
+
+.btn-link {
+  color: #CC9933;
 }
 
 .section-title {
   margin-left: 40px;
   margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: normal;
+  color: #333333;
 }
 
 /* Header */
 
-.header-container {
+.header {
   margin-top: 30px;
+}
+
+.logo-img {
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.header-tel {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: medium;
+  color: #666666;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .header-upper {
@@ -52,25 +113,47 @@ img {
   margin-bottom: 30px;
 }
 
-.logo-img {
-  margin-right: 40px;
+.header-login {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #CC9933;
 }
 
-.header-login {
-  margin-right: auto;
+.header-login-img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  background: url("../img/logo_keyboard_tab.svg") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(-1px);
 }
 
 .header-bottom {
   display: flex;
   align-items: center;
+  padding: 27px 45px;
+  background: #FFFFFF;
+  border-radius: 15px;
 }
 
 .nav-list {
   display: flex;
 }
 
-.nav-item:first-child {
-  margin-left: 45px;
+.nav-item {
+  min-width: 44px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+.nav-link {
+  color: #666666;
 }
 
 .nav-item:not(:last-child) {
@@ -78,7 +161,7 @@ img {
 }
 
 .header-btn-left {
-  margin-left: 114px;
+  margin-left: auto;
 }
 
 .header-btn-right {
@@ -87,15 +170,92 @@ img {
 
 /* Hero */
 
-.section-hero-container {
+.section-hero {
   margin-top: 70px;
 }
 
-.section-hero-list {
+.section-hero-container {
   display: flex;
 }
 
 .section-hero-item {
-  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.section-hero-name {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.section-hero-item-maldives {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  background: url("../img/so_maldives.jpg") center no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.section-hero-item-crete {
+  margin-right: 24px;
+  background: url("../img/so_island-crete.jpg") center no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.lux-section-hero {
+  background: url("../img/so_luxery-rooms.jpg") center no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.section-hero-left {
+  flex: 1 1 50%;
+}
+
+.section-hero-right {
+  flex: 1 1 50%;
+}
+
+/* About */
+
+/* Services */
+
+.section-services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-services-item {
+  flex: 1 1 50%;
+}
+
+/* Benefits */
+
+.section-benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-benefits-item {
   flex: 1 1 25%;
+}
+
+.section-benefits-text {
+  max-width: 250px;
+}
+
+/* Location  */
+
+.section-location-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-location-item {
+  flex: 1 1 33.33%;
 }

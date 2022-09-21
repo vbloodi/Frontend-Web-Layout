@@ -21,7 +21,7 @@
   src: url("../fonts/MullerMedium.woff2") format("woff2"),
     url("../fonts/MullerMedium.woff") format("woff");
   font-display: swap;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -30,7 +30,7 @@
   src: url("../fonts/MullerBold.woff2") format("woff2"),
     url("../fonts/MullerBold.woff") format("woff");
   font-display: swap;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -43,7 +43,22 @@ html {
 }
 
 body {
-  background: #F1F1F1;
+  background: #f1f1f1;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -70,13 +85,13 @@ img {
 
 .btn {
   padding: 13px 20px;
-  background: #FFFFFF;
-  border: 1px solid #CC9933;
+  background: #ffffff;
+  border: 1px solid #cc9933;
   border-radius: 10px;
 }
 
 .btn-link {
-  color: #CC9933;
+  color: #cc9933;
 }
 
 .section-title {
@@ -86,6 +101,13 @@ img {
   line-height: 40px;
   font-weight: normal;
   color: #333333;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: normal;
+  color: #000;
 }
 
 /* Header */
@@ -120,7 +142,7 @@ img {
   font-size: 16px;
   line-height: 16px;
   font-weight: normal;
-  color: #CC9933;
+  color: #cc9933;
 }
 
 .header-login-img {
@@ -128,7 +150,8 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 5px;
-  background: url("../img/logo_keyboard_tab.svg") center center no-repeat transparent;
+  background: url("../img/logo_keyboard_tab.svg") center center no-repeat
+    transparent;
   background-size: contain;
   transform: translateY(-1px);
 }
@@ -137,7 +160,7 @@ img {
   display: flex;
   align-items: center;
   padding: 27px 45px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 15px;
 }
 
@@ -180,16 +203,47 @@ img {
 
 .section-hero-item {
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 45px;
 }
 
 .section-hero-name {
+  word-wrap: break-word;
+  max-width: 400px;
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 40px;
   line-height: 40px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.section-hero-price {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.section-hero-more-link {
+  display: inline-block;
+  margin-top: 47px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #f0bf5f;
+}
+
+.icon-more {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/logo_advanced.svg") center center no-repeat
+    transparent;
+  background-size: contain;
+  transform: translateX(3px);
+  transform: translateY(3px);
 }
 
 .section-hero-item-maldives {
@@ -208,6 +262,29 @@ img {
 }
 
 .lux-section-hero {
+  padding-top: 212px;
+  padding-left: 45px;
+}
+
+.lux-section-hero-name {
+  word-wrap: break-word;
+  max-width: 300px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.lux-section-hero-price {
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.lux-section-hero {
+  height: 100%;
   background: url("../img/so_luxery-rooms.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -223,7 +300,19 @@ img {
 
 /* About */
 
+.section-about {
+  margin-top: 70px;
+}
+
+.section-text-about {
+  max-width: 888px;
+}
+
 /* Services */
+
+.section-services {
+  margin-top: 70px;
+}
 
 .section-services-list {
   display: flex;
@@ -231,7 +320,36 @@ img {
 }
 
 .section-services-item {
-  flex: 1 1 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 48%;
+  margin-bottom: 24px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.section-services-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.section-services-img {
+  min-width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.section-services-name {
+  margin-top: 26px;
+  margin-left: 45px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #cc9933;
+}
+
+.section-text-services {
+  margin-left: 45px;
+  margin-bottom: 35px;
+  max-width: 402px;
 }
 
 /* Benefits */
@@ -242,14 +360,33 @@ img {
 }
 
 .section-benefits-item {
-  flex: 1 1 25%;
+  margin-bottom: 22px;
+  flex: 1 1 23%;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.section-benefits-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.section-benefits-icon {
+  margin-top: 40px;
+  margin-left: 45px;
 }
 
 .section-benefits-text {
-  max-width: 250px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+  margin-left: 45px;
+  max-width: 189px;
 }
 
 /* Location  */
+
+.section-location {
+  margin-top: 70px;
+}
 
 .section-location-list {
   display: flex;
@@ -258,4 +395,21 @@ img {
 
 .section-location-item {
   flex: 1 1 33.33%;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.section-location-img {
+  min-width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.section-location-price {
+  margin-top: 32px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+}
+
+.section-location-rating {
+  display: inline-block;
 }

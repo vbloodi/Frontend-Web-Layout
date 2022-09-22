@@ -46,6 +46,11 @@ body {
   background: #f1f1f1;
 }
 
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 h3 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -84,13 +89,12 @@ img {
 }
 
 .btn {
+  display: inline-block;
   padding: 13px 20px;
   background: #ffffff;
   border: 1px solid #cc9933;
   border-radius: 10px;
-}
-
-.btn-link {
+  cursor: pointer;
   color: #cc9933;
 }
 
@@ -394,9 +398,14 @@ img {
 }
 
 .section-location-item {
-  flex: 1 1 33.33%;
+  flex: 1 1 31.5%;
+  margin-bottom: 24px;
   background: #fff;
   border-radius: 15px;
+}
+
+.section-location-item:not(:nth-child(3n)) {
+  margin-right: 24px;
 }
 
 .section-location-img {
@@ -404,12 +413,68 @@ img {
   border-radius: 15px 15px 0px 0px;
 }
 
-.section-location-price {
+.section-location-content {
   margin-top: 32px;
   margin-left: 45px;
   margin-bottom: 45px;
+  line-height: 16px;
 }
 
-.section-location-rating {
+.section-location-price-rating {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.section-location-price {
+  margin-right: 52px;
+}
+
+.section-location-name {
+  margin-bottom: 16px;
+}
+
+.section-location-country {
+  margin-bottom: 20px;
+}
+
+.section-location-gray {
+  color: #999999;
+}
+
+.section-location-strong {
+  margin-right: 4px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.section-location-item-more {
+  display: flex;
+  background: url("../img/place_9_look-rest.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.section-location-more {
+  align-self: flex-end;
+  margin-left: 54px;
+  margin-bottom: 27px;
+}
+
+.section-location-link {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.icon-more-rest {
   display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/logo_advanced-white.svg") center center no-repeat;
+  background-size: contain;
+  transform: translateX(3px);
+  transform: translateY(3px);
 }

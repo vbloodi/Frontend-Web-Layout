@@ -1,41 +1,60 @@
 /* open-sans-300 - latin_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/open-sans-v34-latin_cyrillic-300.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/open-sans-v34-latin_cyrillic-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/open-sans-v34-latin_cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/open-sans-v34-latin_cyrillic-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url("../fonts/open-sans-v34-latin_cyrillic-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin_cyrillic-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin_cyrillic-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/open-sans-v34-latin_cyrillic-300.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin_cyrillic-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin_cyrillic-300.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
 }
 /* open-sans-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/open-sans-v34-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/open-sans-v34-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/open-sans-v34-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/open-sans-v34-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url("../fonts/open-sans-v34-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/open-sans-v34-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/open-sans-v34-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin_cyrillic-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
 }
 /* open-sans-600 - latin_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/open-sans-v34-latin_cyrillic-600.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/open-sans-v34-latin_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/open-sans-v34-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-600.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/open-sans-v34-latin_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/open-sans-v34-latin_cyrillic-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url("../fonts/open-sans-v34-latin_cyrillic-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin_cyrillic-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin_cyrillic-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/open-sans-v34-latin_cyrillic-600.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin_cyrillic-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin_cyrillic-600.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
 }
 
 * {
@@ -148,7 +167,7 @@ img {
 /* Hero */
 
 .section-hero {
-  background: url('../img/hero-pic.jpg') right center no-repeat;
+  background: url("../img/hero-pic.jpg") right center no-repeat;
   background-size: cover;
   border-bottom: 1px solid #e4e4e4;
 }
@@ -169,7 +188,6 @@ img {
   line-height: 52px;
   font-weight: 300;
   color: #1c1c1c;
-
 }
 
 .section-hero-action {
@@ -200,7 +218,7 @@ img {
   width: 13px;
   height: 17px;
   margin-right: 10px;
-  background: url('../img/ssl-icon.svg') center center no-repeat transparent;
+  background: url("../img/ssl-icon.svg") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(-1px);
 }
@@ -378,7 +396,7 @@ img {
 .section-contacts-info {
   font-size: 14px;
   line-height: 25px;
-  color:#787878
+  color: #787878;
 }
 
 .section-contacts-link {
@@ -398,7 +416,8 @@ img {
   height: 100%;
 }
 
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
   display: flex;
   align-items: center;
 }
@@ -454,18 +473,18 @@ img {
 .footer-social-icon-twitter {
   width: 18px;
   height: 15px;
-  background-image: url('../img/twitter.svg');
+  background-image: url("../img/twitter.svg");
 }
 
 .footer-social-icon-linkedin {
   width: 18px;
   height: 19px;
-  background-image: url('../img/linkedin.svg');
+  background-image: url("../img/linkedin.svg");
   transform: translateY(-2px);
 }
 
 .footer-social-icon-email {
   width: 24px;
   height: 17px;
-  background-image: url('../img/email.svg');
+  background-image: url("../img/email.svg");
 }

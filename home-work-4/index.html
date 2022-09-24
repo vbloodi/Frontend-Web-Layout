@@ -533,6 +533,66 @@
           </ul>
         </div>
       </section>
+      <section class="section-form">
+        <div class="container form-container">
+          <h2 class="section-title section-title-form">Хочу тур</h2>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            autocomplete
+            method="POST"
+            class="form"
+          >
+            <div class="form-container-element form-container-element-city">
+              <label for="city" class="lable">Город вылета</label>
+              <select name="city" id="city">
+                <option value="spb">Санкт-Петербург</option>
+                <option value="moskow">Москва</option>
+                <option value="minsk">Минск</option>
+                <option value="gomel">Гомель</option>
+              </select>
+            </div>
+            <div class="form-container-element form-container-element-country">
+              <label for="country" class="lable">Страна</label>
+              <select name="country" id="country">
+                <option value="australia">Австралия</option>
+                <option value="spain">Испания</option>
+                <option value="france">Франция</option>
+                <option value="italy">Италия</option>
+              </select>
+            </div>
+            <div class="form-container-element form-container-element-date">
+              <label for="calendar-date" class="lable">Дата прибытия</label>
+              <input
+                type="date"
+                id="calendar-date"
+                name="calendar-date"
+                placeholder=""
+              />
+            </div>
+            <div class="form-container-element form-container-element-nights">
+              <label for="nights" class="lable">Ночей</label>
+              <input type="number" id="nights" name="nights" placeholder="6" />
+            </div>
+            <div class="form-container-element form-container-element-tourists">
+              <label for="tourists" class="lable">Туристы</label>
+              <input
+                type="number"
+                id="tourists"
+                name="tourists"
+                placeholder="2"
+              />
+            </div>
+            <div class="form-container-element form-container-element-btn">
+              <button class="btn find-btn">Найти</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section-contacts">
+        <div class="container contacts-container">
+          <h2 class="section-title">Контакты</h2>
+        </div>
+      </section>
     </main>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -566,12 +566,12 @@
                 type="date"
                 id="calendar-date"
                 name="calendar-date"
-                placeholder=""
+                value="2021-10-18"
               />
             </div>
             <div class="form-container-element form-container-element-nights">
               <label for="nights" class="lable">Ночей</label>
-              <input type="number" id="nights" name="nights" placeholder="6" />
+              <input type="number" id="nights" name="nights" value="6" />
             </div>
             <div class="form-container-element form-container-element-tourists">
               <label for="tourists" class="lable">Туристы</label>
@@ -579,11 +579,12 @@
                 type="number"
                 id="tourists"
                 name="tourists"
-                placeholder="2"
+                required
+                value="2"
               />
             </div>
             <div class="form-container-element form-container-element-btn">
-              <button class="btn find-btn">Найти</button>
+              <button type="submit" class="btn find-btn">Найти</button>
             </div>
           </form>
         </div>

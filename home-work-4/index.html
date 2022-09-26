@@ -638,9 +638,16 @@
                   <p>Понедельник-пятница, с 10:00 до 19:00</p>
                 </div>
               </div>
-              <div class="contacts-btn-container">
-                <button class="btn contacts-btn">Построить маршрут</button>
-              </div>
+              <form
+                action="https://jsonplaceholder.typicode.com/posts"
+                autocomplete
+                method="POST"
+                class="contacts-btn-container"
+              >
+                <button type="submit" class="btn contacts-btn">
+                  Построить маршрут
+                </button>
+              </form>
             </div>
             <div class="contacts-right">
               <img

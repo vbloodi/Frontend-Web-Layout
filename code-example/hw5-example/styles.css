@@ -233,6 +233,7 @@ p::first-line {
 :root {
   --font-size: 18px;
   --font-color: black;
+  --gutter: 18px;
 }
 
 body {
@@ -250,4 +251,91 @@ body {
   --font-size: 12px;
   font-size: var(--font-size);
   margin-top: 20px;
+}
+
+/* object-fit */
+
+.object-fit-cover {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.object-fit-initial {
+  width: 400px;
+  height: 300px;
+  object-fit: initial;
+}
+
+.object-fit-contain {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* inherit */
+
+.element {
+  color: red;
+}
+
+.element-child {
+  color: inherit;
+}
+
+/* currentColor */
+
+.element-2 {
+  color: blueviolet;
+  border: 1px solid currentColor;
+  /* background: currentColor; */
+}
+
+/* filter */
+
+.filter-blur {
+  width: 200px;
+  height: 200px;
+  filter: blur(2px);
+  background: #000;
+  color: #fff;
+}
+
+.filter-brightness {
+  width: 200px;
+  height: 200px;
+  filter: brightness(200%);
+  background: #000;
+  color: #fff;
+}
+
+.filter-greyscale {
+  max-height: 300px;
+  filter: grayscale(100%);
+}
+
+.filter-drop-shadow {
+  display: block;
+  max-height: 300px;
+  margin-top: 30px;
+  filter: drop-shadow(0 0 10px rgba(100, 0, 0, 0.9));
+}
+
+.gradient {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to top, black, red);
+}
+
+.calc-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.calc-child {
+  min-height: 150px;
+  border: 2px solid darkred;
+  flex: 0 0 calc(33.3% - var(--gutter));
 }

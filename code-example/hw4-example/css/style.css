@@ -69,6 +69,10 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  outline: 2px solid grey;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -97,7 +101,17 @@ img {
   color: #fff;
   background-color: #3172b9;
   border-radius: 4px;
+  transition: background-color 0.3s ease;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5c9ce1;
+}
+
+.btn:active {
+  background-color: #396ba1;
+  transform: translateY(0.5px);
 }
 
 .btn.btn-big {
@@ -138,6 +152,10 @@ img {
   height: 100%;
 }
 
+.logo {
+  margin-right: auto;
+}
+
 .nav-list {
   display: flex;
   margin: auto;
@@ -150,6 +168,11 @@ img {
 
 .nav-link {
   color: #1c1c1c;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #5c9ce1;
 }
 
 .nav-item.is-active .nav-link {
@@ -164,6 +187,19 @@ img {
   margin-left: 40px;
 }
 
+/* Sale alert */
+
+.sale-alert {
+  padding: 25px;
+  outline: 3px solid red;
+}
+
+.sale-alert__heading {
+  margin-bottom: 0.5em;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* Hero */
 
 .section-hero {
@@ -172,16 +208,20 @@ img {
   border-bottom: 1px solid #e4e4e4;
 }
 
-.hero-container {
+.section-hero__sale-alert {
+  margin: 30px 0;
+}
+
+.section-hero__container {
   padding-top: 125px;
   padding-bottom: 130px;
 }
 
-.hero-content {
+.section-hero__content {
   max-width: 45%;
 }
 
-.section-hero-heading {
+.section-hero__heading {
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 40px;
@@ -190,18 +230,24 @@ img {
   color: #1c1c1c;
 }
 
-.section-hero-action {
+.section-hero__action {
   display: inline-block;
 }
 
-.section-hero-description {
+.section-hero__description {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 25px;
   color: #787878;
 }
 
-.section-hero-btn-description {
+.section-hero__description_alert {
+  margin-top: -20px;
+  font-size: 14px;
+  color: rgb(232, 134, 134);
+}
+
+.section-hero__btn-description {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,7 +259,7 @@ img {
   color: #787878;
 }
 
-.section-hero-ssl-icon {
+.section-hero__ssl-icon {
   display: inline-block;
   width: 13px;
   height: 17px;
@@ -229,6 +275,11 @@ img {
   padding-top: 140px;
   padding-bottom: 100px;
   border-bottom: 1px solid #e4e4e4;
+}
+
+.section-do__sale-alert {
+  margin: 20px 0;
+  background: whitesmoke;
 }
 
 .section-description {
@@ -248,10 +299,38 @@ img {
   padding: 60px 30px;
   border: 1px solid #e4e4e4;
   border-radius: 5px;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.section-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-do-item:hover {
+  background-color: #3172b9;
+  cursor: pointer;
+}
+
+.section-do-item:hover .section-do-item-heading {
+  color: white;
+}
+
+.section-do-item:hover .section-do-item-description {
+  color: rgb(236, 236, 236);
+}
+
+.section-do-item:hover .section-do-icon path {
+  fill: white;
 }
 
 .section-do-icon {
   margin-bottom: 30px;
+}
+
+.section-do-icon path {
+  transition: fill 0.7s ease;
 }
 
 .section-do-item-heading {
@@ -260,6 +339,7 @@ img {
   line-height: 1.3;
   font-weight: 600;
   color: #1c1c1c;
+  transition: color 0.3s ease;
 }
 
 .section-do-item-description {
@@ -269,10 +349,7 @@ img {
   font-weight: 300;
   text-align: center;
   color: #787878;
-}
-
-.section-do-item:not(:last-child) {
-  margin-right: 30px;
+  transition: color 0.3s ease;
 }
 
 /* Clients */

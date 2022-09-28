@@ -79,6 +79,7 @@ a:hover {
   color: #e6b34d;
   font-size: 1.03em;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 ul {
@@ -111,10 +112,16 @@ img {
 }
 
 .btn:hover {
+  font-size: 1em;
   background: #e7bc67;
   color: #fff;
-  transform: scale(105%);
+  transform: scale(104%);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn:active {
+  transform: scale(98%);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 .section-title {
@@ -139,16 +146,22 @@ img {
   margin-top: 30px;
 }
 
+.header__logo {
+  transition: filter, transform, 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
 .header__logo:hover {
   font-size: 1rem;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+  transform: scale(103%);
 }
 
 .header__logo-img {
   border-radius: 15px;
-  margin-right: 40px;
 }
 
 .header__tel {
+  margin-left: 40px;
   font-size: 20px;
   line-height: 20px;
   font-weight: medium;
@@ -375,6 +388,24 @@ img {
   color: #cc9933;
 }
 
+.section-services__name:hover {
+  font-size: 1.25rem;
+}
+
+.section-services__icon-more {
+  display: inline-block;
+  margin-left: 3px;
+  transform: translateY(3px);
+}
+
+.section-services__icon-more path {
+  stroke: #cc9933;
+}
+
+.section-services__name:hover .section-services__icon-more path {
+  stroke: #e6b34d;
+}
+
 .section-services__text {
   margin-left: 45px;
   margin-bottom: 35px;
@@ -461,6 +492,11 @@ img {
   margin-right: 52px;
 }
 
+.section-location__rating {
+  margin-right: 45px;
+  margin-left: auto;
+}
+
 .section-location__name {
   margin-bottom: 16px;
 }
@@ -483,6 +519,7 @@ img {
 
 .section-location-more {
   display: flex;
+  position: relative;
   background: url("../img/place_9_look-rest.jpg") no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -497,23 +534,36 @@ img {
 .section-location-more__link {
   font-size: 20px;
   line-height: 40px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
+}
+
+.section-location-more::before,
+.section-location-more::after {
+  content: attr(href);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
 }
 
 .section-location-more__link:hover {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
 
 .section-location-more__icon-rest {
   display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url("../img/logo_advanced-white.svg") center center no-repeat;
-  background-size: contain;
-  transform: translateX(3px);
+  margin-left: 3px;
   transform: translateY(3px);
+}
+
+.section-location-more__icon-rest path {
+  stroke: #fff;
+  stroke-width: 2;
 }
 
 /* Form */

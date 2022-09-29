@@ -153,7 +153,13 @@ img {
 .header__logo:hover {
   font-size: 1rem;
   filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
-  transform: scale(103%);
+  transform: scale(102%);
+}
+
+.header__logo:active {
+  font-size: 1rem;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+  transform: scale(98%);
 }
 
 .header__logo-img {
@@ -523,6 +529,7 @@ img {
   background: url("../img/place_9_look-rest.jpg") no-repeat;
   background-size: cover;
   border-radius: 15px;
+  transition: transform, drop-shadow, 0.2s ease-in-out;
 }
 
 .section-location-more__container {
@@ -538,9 +545,8 @@ img {
   color: #fff;
 }
 
-.section-location-more::before,
-.section-location-more::after {
-  content: attr(href);
+.section-location-more__link::after {
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -553,6 +559,16 @@ img {
 .section-location-more__link:hover {
   color: #fff;
   font-size: 1.25rem;
+}
+
+.section-location-more:hover {
+  transform: scale(101%);
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.section-location-more:active {
+  transform: scale(99%);
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.8));
 }
 
 .section-location-more__icon-rest {

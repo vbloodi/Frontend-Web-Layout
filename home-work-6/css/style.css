@@ -1,0 +1,114 @@
+/* montserrat-300 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-300.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-300.woff") format("woff");
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-regular.woff") format("woff");
+}
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-500.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-500.woff") format("woff");
+}
+/* montserrat-600 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-600.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-600.woff") format("woff");
+}
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-700.woff") format("woff");
+}
+/* montserrat-800 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin_cyrillic-800.woff2") format("woff2"),
+    url("../fonts/montserrat-v25-latin_cyrillic-800.woff") format("woff");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* transition: 0.5s ease-in-out; */
+  /* добавим плавность переходов для всех элементов страницы*/
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #000;
+  background: #ffffff;
+}
+
+/* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
+header:after,
+.container:after,
+footer:after,
+.widget-posts-list li:after,
+#subscribe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* стилевой класс, который управляет шириной контейнера сетки*/
+.container {
+  width: 100%;
+  max-width: 1920px;
+}

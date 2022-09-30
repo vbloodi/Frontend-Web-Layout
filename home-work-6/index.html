@@ -10,22 +10,32 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a href="" class="header__logo-link"
-          ><img src="" alt="" class="header__logo-img"
+        <a href="index.html" class="header__logo-link"
+          ><img src="./img/Logo.svg" alt="" class="header__logo-img"
         /></a>
         <nav class="header__nav header-nav">
           <ul class="header-nav__list">
-            <li class="header-nav__item">О нас</li>
-            <li class="header-nav__item">Проекты</li>
-            <li class="header-nav__item">Этапы</li>
-            <li class="header-nav__item">Отзывы</li>
-            <li class="header-nav__item">Контакты</li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">О нас</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">Проекты</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">Этапы</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">Отзывы</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <div class="header__search header-search">
-          <a href="" class="header-search__link"
-            ><span class="header-search__icon"></span
-          ></a>
+          <button class="button header-search__button">
+            <span class="header-search__icon"></span>
+          </button>
         </div>
       </div>
     </header>
@@ -69,32 +79,46 @@
                     планирование способствует подготовке и реализации новых
                     принципов
                   </p>
-                  <div class="advanced-left__button">Подробнее</div>
+                  <button class="button advanced-left__button">
+                    Подробнее
+                  </button>
                 </div>
               </div>
               <div class="about-advanced__right advanced-right">
                 <ul class="advanced-right__list">
                   <li class="advanced-right__item">
-                    <img src="" alt="" class="advanced-right__image" />
-                    <h3 class="advanced-right__title">
-                      Консультация с широким активом
-                    </h3>
-                    <p class="advanced-right__text">
-                      А также свежий взгляд на привычные вещи — безусловно
-                      открывает новые горизонты для как самодостаточных,
-                      так и внешне зависимых концептуальных решений
-                    </p>
+                    <img
+                      src="./img/about-1.svg"
+                      alt=""
+                      class="advanced-right__image"
+                    />
+                    <div class="advanced-right__info">
+                      <h3 class="advanced-right__title">
+                        Консультация с широким активом
+                      </h3>
+                      <p class="advanced-right__text">
+                        А также свежий взгляд на привычные вещи — безусловно
+                        открывает новые горизонты для как самодостаточных,
+                        так и внешне зависимых концептуальных решений
+                      </p>
+                    </div>
                   </li>
                   <li class="advanced-right__item">
-                    <img src="" alt="" class="advanced-right__image" />
-                    <h3 class="advanced-right__title">
-                      В своём стремлении повысить
-                    </h3>
-                    <p class="advanced-right__text">
-                      Качество жизни, они забывают, что сплочённость команды
-                      профессионалов представляет собой интересный эксперимент
-                      проверки прогресса профессионального сообщества
-                    </p>
+                    <img
+                      src="./img/about-2.svg"
+                      alt=""
+                      class="advanced-right__image"
+                    />
+                    <div class="advanced-right__info">
+                      <h3 class="advanced-right__title">
+                        В своём стремлении повысить
+                      </h3>
+                      <p class="advanced-right__text">
+                        Качество жизни, они забывают, что сплочённость команды
+                        профессионалов представляет собой интересный эксперимент
+                        проверки прогресса профессионального сообщества
+                      </p>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -117,26 +141,28 @@
                   Влечёт за собой процесс внедрения и модернизации приоритизации
                   разума над эмоциями. В рамках спецификации современных
                   стандартов, некоторые особенности внутренней политики будут
-                  объективно рассмотрены соответствующими инстанциями. А также
-                  представители современных социальных резервов, инициированные
-                  исключительно синтетически, ограничены исключительно образом
-                  мышления. Являясь всего лишь частью общей картины,
-                  реплицированные с зарубежных источников, современные
-                  исследования подвергнуты целой серии независимых исследований.
-                  Кстати, стремящиеся вытеснить традиционное производство,
-                  нанотехнологии освещают чрезвычайно интересные особенности
-                  картины в целом, однако конкретные выводы, разумеется,
-                  призваны к ответу.
+                  объективно рассмотрены соответствующими инстанциями.<br />
+                  А также представители современных социальных резервов,
+                  инициированные исключительно синтетически, ограничены
+                  исключительно образом мышления. Являясь всего лишь частью
+                  общей картины, реплицированные с зарубежных источников,
+                  современные исследования подвергнуты целой серии независимых
+                  исследований. Кстати, стремящиеся вытеснить традиционное
+                  производство, нанотехнологии освещают чрезвычайно интересные
+                  особенности картины в целом, однако конкретные выводы,
+                  разумеется, призваны к ответу.
                 </p>
-                <button class="button how-info__button--advanced">
-                  Подробнее
-                </button>
-                <button class="button how-info__button--contract">
-                  Договор
-                </button>
+                <div class="how-info__buttons">
+                  <button class="button how-info__button--advanced">
+                    Подробнее
+                  </button>
+                  <button class="button how-info__button--contract">
+                    Договор
+                  </button>
+                </div>
               </div>
               <div class="how-info__right">
-                <img src="" alt="" class="how-info__img" />
+                <img src="./img/work-1.jpg" alt="" class="how-info__img" />
               </div>
             </div>
           </div>
@@ -149,33 +175,43 @@
                 <h3 class="section-faq__question">
                   Из чего формируется конечная стоимость проекта?
                 </h3>
-                <button class="section-faq__button--show"></button>
+                <button class="button section-faq__button">
+                  <span class="section-faq__button--show"></span>
+                </button>
               </li>
               <li class="section-faq__item">
                 <h3 class="section-faq__question">
                   У меня есть свой проект. Сможем ли мы его доработать /
                   реализовать?
                 </h3>
-                <button class="section-faq__button--show"></button>
+                <button class="button section-faq__button">
+                  <span class="section-faq__button--show"></span>
+                </button>
               </li>
               <li class="section-faq__item">
                 <h3 class="section-faq__question">
                   Я выбираю между разными компаниями. В чём ваше отличие?
                 </h3>
-                <button class="section-faq__button--show"></button>
+                <button class="button section-faq__button">
+                  <span class="section-faq__button--show"></span>
+                </button>
               </li>
               <li class="section-faq__item">
                 <h3 class="section-faq__question">
                   Могу ли я делегировать вам работу / согласование с подрядчиком
                   / организацией?
                 </h3>
-                <button class="section-faq__button--show"></button>
+                <button class="button section-faq__button">
+                  <span class="section-faq__button--show"></span>
+                </button>
               </li>
               <li class="section-faq__item">
                 <h3 class="section-faq__question">
                   Могу ли я вернуть деньги на каком-либо из этапов работ?
                 </h3>
-                <button class="section-faq__button--show"></button>
+                <button class="button section-faq__button">
+                  <span class="section-faq__button--show"></span>
+                </button>
               </li>
             </ul>
           </div>
@@ -185,7 +221,9 @@
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__left footer-left">
-          <div class="footer-left__logo"></div>
+          <a href="index.html" class="footer__logo-link"
+            ><img src="./img/Logo-white.svg" alt="" class="footer__logo-img"
+          /></a>
           <nav class="footer-left__nav">
             <ul class="footer-left__list">
               <li class="footer-left__item">О нас</li>
@@ -235,7 +273,6 @@
                   id="message"
                   name="message"
                   placeholder="Сообщение"
-                  required
                 />
               </div>
             </div>
@@ -247,8 +284,8 @@
               </div>
               <div class="footer-form__agree">
                 <input type="checkbox" id="agree" name="agree" required />
-                <span class="footer-form__agree--text"
-                  >Согласен на обработку данных</span
+                <label for="agree" class="footer-form__agree--text"
+                  >Согласен на обработку данных</label
                 >
               </div>
             </div>

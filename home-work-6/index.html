@@ -10,6 +10,19 @@
   <body>
     <header class="header">
       <div class="header__container">
+        <button class="header__burger-button">
+          <svg
+            width="30"
+            height="23"
+            viewbox="0 0 30 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="30" height="3" fill="black" />
+            <rect y="10" width="30" height="3" fill="black" />
+            <rect y="20" width="30" height="3" fill="black" />
+          </svg>
+        </button>
         <div class="header__left header-left">
           <a href="#" class="header__link">
             <img
@@ -269,21 +282,17 @@
                 </div>
               </div>
               <div class="section-work-down__right">
-                <img
-                  srcset="
-                    ./img/work-1-290w.jpg 290w,
-                    ./img/work-1-437w.jpg 437w,
-                    ./img/work-1-668w.jpg 668w,
-                    ./img/work-1-870w.jpg 870w
-                  "
-                  sizes="(max-width: 320px) 290px,
-                        (max-width: 768px) 668px,
-                        (max-width: 1024px) 437px,
-                        870px"
-                  src="./img/work-1-870w.jpg"
-                  alt="Work first image"
-                  class="section-work-down__image"
-                />
+                <picture alt="Work first image">
+                  <source
+                    media="(max-width: 1024px)"
+                    srcset="./img/work-1-437w.jpg 437w"
+                  />
+                  <img
+                    class="section-work-down__image"
+                    src="./img/work-1-870w.jpg"
+                    alt="Work first image"
+                  />
+                </picture>
               </div>
             </div>
           </div>

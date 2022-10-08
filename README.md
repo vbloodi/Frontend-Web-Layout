@@ -13,4 +13,4 @@ Homework #4 — Semantic Layout
 Homework #5 — BEM, Pseudo classes, Pseudo elements,
             Transformations
             
-Homework #6 — Adaptive Layout, Media
+Homework #6 — Adaptive Layout, Media queries

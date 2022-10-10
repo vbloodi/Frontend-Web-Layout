@@ -1,6 +1,6 @@
-# Skillbox
+# FRONTEND
 
-## Skillbox Frontend Course — Web Layout
+## Frontend Course — Web Layout
 
 Homework #1 — Basic HTML
 

@@ -177,7 +177,7 @@ button {
 .section-hero__container {
   margin-top: 50px;
   padding: 100px 80px;
-  background: url("/home-work-6/img/hero-1-1770w.jpg") center center no-repeat;
+  background: url("../home-work-6/img/hero-1-1770w.jpg") center center no-repeat;
   background-size: cover;
   border-radius: 32px;
 }

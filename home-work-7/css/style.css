@@ -177,7 +177,8 @@ button {
 .section-hero__container {
   margin-top: 50px;
   padding: 100px 80px;
-  background: url("../home-work-6/img/hero-1-1770w.jpg") center center no-repeat;
+  background: url("../../home-work-6/img/hero-1-1770w.jpg") center center
+    no-repeat;
   background-size: cover;
   border-radius: 32px;
 }
@@ -244,7 +245,7 @@ button {
   margin-right: 32px;
   min-height: 100%;
   max-height: 622px;
-  background: url("/home-work-6/img/about-main-868w.jpg") center center
+  background: url("../../home-work-6/img/about-main-868w.jpg") center center
     no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -584,7 +585,7 @@ button {
 }
 
 .submit-checkbox:checked + label::before {
-  background: url("/home-work-6/img/checked.svg") center center no-repeat;
+  background: url("../../home-work-6/img/checked.svg") center center no-repeat;
   background-size: contain;
 }
 
@@ -1046,7 +1047,8 @@ button {
     margin-top: 40px;
     padding: 160px 77px;
     max-height: 668px;
-    background: url("/home-work-6/img/hero-1-924w.jpg") center center no-repeat;
+    background: url("../../home-work-6/img/hero-1-924w.jpg") center center
+      no-repeat;
     background-size: cover;
   }
   .section-hero__title {
@@ -1083,7 +1085,7 @@ button {
     min-height: 640px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-924w.jpg") center center
+    background: url("../../home-work-6/img/about-main-924w.jpg") center center
       no-repeat;
     background-size: cover;
   }
@@ -1200,7 +1202,8 @@ button {
     margin-top: 40px;
     padding: 160px 40px;
     max-height: 662px;
-    background: url("/home-work-6/img/hero-1-668w.jpg") center center no-repeat;
+    background: url("../../home-work-6/img/hero-1-668w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 24px;
   }
@@ -1234,7 +1237,7 @@ button {
     min-height: 650px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-668w.jpg") center center
+    background: url("../../home-work-6/img/about-main-668w.jpg") center center
       no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -1365,7 +1368,8 @@ button {
     margin-top: 30px;
     padding: 80px 40px;
     max-height: 662px;
-    background: url("/home-work-6/img/hero-1-668w.jpg") center center no-repeat;
+    background: url("../../home-work-6/img/hero-1-668w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 24px;
   }
@@ -1402,7 +1406,7 @@ button {
     min-height: 650px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-668w.jpg") center center
+    background: url("../../home-work-6/img/about-main-668w.jpg") center center
       no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -1575,7 +1579,8 @@ button {
     margin-top: 30px;
     padding: 60px 22px;
     max-height: 308px;
-    background: url("/home-work-6/img/hero-1-290w.jpg") center center no-repeat;
+    background: url("../../home-work-6/img/hero-1-290w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 16px;
   }

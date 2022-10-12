@@ -201,7 +201,7 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 5px;
-  background: url("/home-work-4/img/logo_keyboard_tab.svg") center center
+  background: url("../../home-work-4/img/logo_keyboard_tab.svg") center center
     no-repeat transparent;
   background-size: contain;
   transform: translateY(-1px);
@@ -290,8 +290,8 @@ img {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url("/home-work-4/img/logo_advanced.svg") center center no-repeat
-    transparent;
+  background: url("../../home-work-4/img/logo_advanced.svg") center center
+    no-repeat transparent;
   background-size: contain;
   transform: translateX(3px);
   transform: translateY(3px);
@@ -300,14 +300,14 @@ img {
 .section-hero__item--maldives {
   margin-right: 24px;
   margin-bottom: 24px;
-  background: url("/home-work-4/img/so_maldives.jpg") center no-repeat;
+  background: url("../../home-work-4/img/so_maldives.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
 }
 
 .section-hero__item--crete {
   margin-right: 24px;
-  background: url("/home-work-4/img/so_island-crete.jpg") center no-repeat;
+  background: url("../../home-work-4/img/so_island-crete.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
 }
@@ -316,7 +316,7 @@ img {
   padding-top: 212px;
   padding-left: 45px;
   height: 100%;
-  background: url("/home-work-4/img/so_luxery-rooms.jpg") center no-repeat;
+  background: url("../../home-work-4/img/so_luxery-rooms.jpg") center no-repeat;
   background-size: cover;
   border-radius: 15px;
 }
@@ -526,7 +526,7 @@ img {
 .section-location-more {
   display: flex;
   position: relative;
-  background: url("/home-work-4/img/place_9_look-rest.jpg") no-repeat;
+  background: url("../../home-work-4/img/place_9_look-rest.jpg") no-repeat;
   background-size: cover;
   border-radius: 15px;
   transition: transform, drop-shadow, 0.2s ease-in-out;
@@ -759,7 +759,7 @@ img {
   display: flex;
   padding: 45px;
   max-width: 1170px;
-  background-image: url("/home-work-4/img/logo_footer.svg");
+  background-image: url("../../home-work-4/img/logo_footer.svg");
   background-position: 739px 113px;
   background-repeat: no-repeat;
   background-color: #333333;
@@ -811,21 +811,21 @@ img {
   width: 25px;
   height: 25px;
   margin-bottom: 20px;
-  background: url("/home-work-4/img/logo_owl.svg") center center no-repeat;
+  background: url("../../home-work-4/img/logo_owl.svg") center center no-repeat;
 }
 
 .footer__social--ok {
   width: 25px;
   height: 25px;
   margin-bottom: 20px;
-  background: url("/home-work-4/img/logo_ok.svg") center center no-repeat;
+  background: url("../../home-work-4/img/logo_ok.svg") center center no-repeat;
 }
 
 .footer__social--vk {
   width: 25px;
   height: 25px;
   margin-bottom: 20px;
-  background: url("/home-work-4/img/logo_vk.svg") center center no-repeat;
+  background: url("../../home-work-4/img/logo_vk.svg") center center no-repeat;
 }
 
 .footer__tel-1,

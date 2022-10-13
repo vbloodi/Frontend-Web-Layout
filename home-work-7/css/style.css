@@ -163,21 +163,49 @@ button {
 /* --- MAIN --- */
 
 .main {
-  display: flex;
-  justify-content: center;
+  margin: auto;
   padding: 0 75px;
-}
-
-.main__container {
-  flex: 1 1 100%;
+  max-width: 1920px;
 }
 
 /* --- HERO --- */
 
-.section-hero__container {
+.section-hero {
   margin-top: 50px;
+  height: 620px;
+}
+
+.section-hero__container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
   padding: 100px 80px;
-  background: url("../home-work-6/img/hero-1-1770w.jpg") center center no-repeat;
+}
+
+.swiper-slide--one {
+  background: url("../../home-work-6/img/hero-1-1770w.jpg") center center
+    no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+}
+
+.swiper-slide--two {
+  background: url("../../home-work-6/img/hero-2-1770w.jpg") center center
+    no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+}
+
+.swiper-slide--three {
+  background: url("../../home-work-6/img/hero-3-1770w.jpg") center center
+    no-repeat;
   background-size: cover;
   border-radius: 32px;
 }
@@ -209,6 +237,23 @@ button {
   background-color: #ff9900;
   border-radius: 16px;
   color: #fff;
+}
+
+.swiper-pagination {
+  margin-bottom: 17px;
+}
+
+.swiper .swiper-pagination-bullet {
+  margin: 0px 10px !important;
+  width: 15px;
+  height: 15px;
+  opacity: 100%;
+  background: #cacaca;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  opacity: 100%;
+  background: #fff;
 }
 
 /* --- ABOUT --- */
@@ -244,7 +289,7 @@ button {
   margin-right: 32px;
   min-height: 100%;
   max-height: 622px;
-  background: url("/home-work-6/img/about-main-868w.jpg") center center
+  background: url("../../home-work-6/img/about-main-868w.jpg") center center
     no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -584,7 +629,7 @@ button {
 }
 
 .submit-checkbox:checked + label::before {
-  background: url("/home-work-6/img/checked.svg") center center no-repeat;
+  background: url("../../home-work-6/img/checked.svg") center center no-repeat;
   background-size: contain;
 }
 
@@ -874,15 +919,16 @@ button {
 
   /* --- 3160-MAIN --- */
   .main {
-    display: flex;
-    justify-content: center;
+    margin: auto;
     padding: 0 325px;
-  }
-  .main__container {
-    flex: 1 1 100%;
+    max-width: 3840px;
   }
 
   /* --- 3160-HERO --- */
+  .section-hero {
+    margin-top: 50px;
+    height: 820px;
+  }
   .section-hero__title {
     max-width: 1237px;
   }
@@ -941,15 +987,16 @@ button {
 
   /* --- 2560-MAIN --- */
   .main {
-    display: flex;
-    justify-content: center;
+    margin: auto;
     padding: 0 250px;
-  }
-  .main__container {
-    flex: 1 1 100%;
+    max-width: 3160px;
   }
 
   /* --- 2560-HERO --- */
+  .section-hero {
+    margin-top: 50px;
+    height: 720px;
+  }
   .section-hero__title {
     max-width: 1237px;
   }
@@ -1042,12 +1089,30 @@ button {
   }
 
   /* --- 1024-HERO --- */
-  .section-hero__container {
+  .section-hero {
     margin-top: 40px;
+    height: 668px;
+  }
+  .swiper-slide {
     padding: 160px 77px;
-    max-height: 668px;
-    background: url("/home-work-6/img/hero-1-924w.jpg") center center no-repeat;
+  }
+  .swiper-slide--one {
+    background: url("../../home-work-6/img/hero-1-924w.jpg") center center
+      no-repeat;
     background-size: cover;
+    border-radius: 32px;
+  }
+  .swiper-slide--two {
+    background: url("../../home-work-6/img/hero-2-924w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 32px;
+  }
+  .swiper-slide--three {
+    background: url("../../home-work-6/img/hero-3-924w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 32px;
   }
   .section-hero__title {
     max-width: 770px;
@@ -1083,7 +1148,7 @@ button {
     min-height: 640px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-924w.jpg") center center
+    background: url("../../home-work-6/img/about-main-924w.jpg") center center
       no-repeat;
     background-size: cover;
   }
@@ -1196,11 +1261,28 @@ button {
   }
 
   /* --- 768-HERO --- */
-  .section-hero__container {
+  .section-hero {
     margin-top: 40px;
+    height: 662px;
+  }
+  .swiper-slide {
     padding: 160px 40px;
-    max-height: 662px;
-    background: url("/home-work-6/img/hero-1-668w.jpg") center center no-repeat;
+  }
+  .swiper-slide--one {
+    background: url("../../home-work-6/img/hero-1-668w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+  }
+  .swiper-slide--two {
+    background: url("../../home-work-6/img/hero-2-668w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+  }
+  .swiper-slide--three {
+    background: url("../../home-work-6/img/hero-3-668w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 24px;
   }
@@ -1234,7 +1316,7 @@ button {
     min-height: 650px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-668w.jpg") center center
+    background: url("../../home-work-6/img/about-main-668w.jpg") center center
       no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -1291,6 +1373,9 @@ button {
   .section-work-down__text--br {
     display: none;
   }
+  .section-work-down__buttons {
+    margin-top: 24px;
+  }
   .section-work-down__right {
     margin-bottom: 38px;
   }
@@ -1318,13 +1403,17 @@ button {
   .footer__container {
     flex-direction: column-reverse;
     margin-top: 118px;
+    padding: 50px 50px;
     max-height: 792px;
   }
   .footer-nav__list {
     display: none;
   }
   .footer__form {
-    min-width: 541px;
+    max-width: 541px;
+  }
+  .footer-form__submit-button {
+    padding: 19px 38px;
   }
   .footer__info {
     display: none;
@@ -1361,11 +1450,28 @@ button {
   }
 
   /* --- 480-HERO --- */
-  .section-hero__container {
+  .section-hero {
     margin-top: 30px;
+    height: 520px;
+  }
+  .swiper-slide {
     padding: 80px 40px;
-    max-height: 662px;
-    background: url("/home-work-6/img/hero-1-668w.jpg") center center no-repeat;
+  }
+  .swiper-slide--one {
+    background: url("../../home-work-6/img/hero-1-668w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+  }
+  .swiper-slide--two {
+    background: url("../../home-work-6/img/hero-2-668w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+  }
+  .swiper-slide--three {
+    background: url("../../home-work-6/img/hero-3-668w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 24px;
   }
@@ -1402,7 +1508,7 @@ button {
     min-height: 650px;
     margin-right: 0px;
     margin-bottom: 32px;
-    background: url("/home-work-6/img/about-main-668w.jpg") center center
+    background: url("../../home-work-6/img/about-main-668w.jpg") center center
       no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -1567,15 +1673,32 @@ button {
   }
 
   /* --- 320-HERO --- */
-  .section-hero__container {
+  .section-hero {
+    margin-top: 30px;
+    height: 308px;
+  }
+  .swiper-slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     padding: 60px 22px;
-    max-height: 308px;
-    background: url("/home-work-6/img/hero-1-290w.jpg") center center no-repeat;
+  }
+  .swiper-slide--one {
+    background: url("../../home-work-6/img/hero-1-290w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+  .swiper-slide--two {
+    background: url("../../home-work-6/img/hero-2-290w.jpg") center center
+      no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+  .swiper-slide--three {
+    background: url("../../home-work-6/img/hero-3-290w.jpg") center center
+      no-repeat;
     background-size: cover;
     border-radius: 16px;
   }
@@ -1598,6 +1721,13 @@ button {
     font-size: 0.75rem;
     line-height: 0.9375rem;
     border-radius: 8px;
+  }
+  .swiper-pagination {
+    margin-bottom: 3px;
+  }
+  .swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
   }
   /* --- 320-ABOUT --- */
   .section-about__container {
@@ -1759,14 +1889,13 @@ button {
     border-radius: 8px;
   }
   .section-work-down__right {
-    position: unset;
     margin-bottom: 14px;
   }
   .section-work-down__image {
-    position: unset;
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+    transform: none;
   }
 
   /* --- 320-FAQ --- */
@@ -1806,7 +1935,9 @@ button {
     display: none;
   }
   .footer__form {
+    padding-bottom: 24px;
     min-width: 290px;
+    border-bottom: 1px solid #414141;
   }
   .footer-form__title {
     margin-bottom: 20px;
@@ -1863,8 +1994,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 23px;
-    border-top: 1px solid #414141;
   }
   .footer__logo {
     margin-top: 16px;

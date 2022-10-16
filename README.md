@@ -15,4 +15,5 @@ Homework #5 — BEM, Pseudo classes, Pseudo elements,
             
 Homework #6 — Adaptive Layout, Media queries
 
-Homework #7 — Basic JS in WEB
+Homework #7 — Slider, Tabs, Burger-menu
+

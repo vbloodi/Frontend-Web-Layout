@@ -19,55 +19,57 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <button id="burger-button" class="header__burger-button">
-          <svg
-            width="30"
-            height="23"
-            viewbox="0 0 30 23"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="30" height="3" fill="black" />
-            <rect y="10" width="30" height="3" fill="black" />
-            <rect y="20" width="30" height="3" fill="black" />
-          </svg>
-        </button>
-        <div id="burger-menu" class="header__burger-menu burger-menu">
-          <button class="burger-menu__close">
+        <div class="burger__container">
+          <button id="burger-open" class="header__burger-button">
             <svg
-              width="23"
-              height="25"
-              viewBox="0 0 23 25"
+              width="30"
+              height="23"
+              viewbox="0 0 30 23"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
-                fill="#333333"
-              />
-              <path
-                d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z"
-                fill="#333333"
-              />
+              <rect width="30" height="3" fill="black" />
+              <rect y="10" width="30" height="3" fill="black" />
+              <rect y="20" width="30" height="3" fill="black" />
             </svg>
           </button>
-          <ul class="burger-menu__list">
-            <li class="burger-menu__item">
-              <a href="#" class="burger-menu__link">О нас</a>
-            </li>
-            <li class="burger-menu__item">
-              <a href="#" class="burger-menu__link">Проекты</a>
-            </li>
-            <li class="burger-menu__item">
-              <a href="#" class="burger-menu__link">Этапы</a>
-            </li>
-            <li class="burger-menu__item">
-              <a href="#" class="burger-menu__link">Отзывы</a>
-            </li>
-            <li class="burger-menu__item">
-              <a href="#" class="burger-menu__link">Контакты</a>
-            </li>
-          </ul>
+          <div id="burger-menu" class="header__burger-menu burger-menu">
+            <button id="burger-close" class="burger-menu__close">
+              <svg
+                width="23"
+                height="25"
+                viewBox="0 0 23 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                  fill="#333333"
+                />
+                <path
+                  d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z"
+                  fill="#333333"
+                />
+              </svg>
+            </button>
+            <ul class="burger-menu__list">
+              <li class="burger-menu__item">
+                <a href="#" class="burger-menu__link">О нас</a>
+              </li>
+              <li class="burger-menu__item">
+                <a href="#" class="burger-menu__link">Проекты</a>
+              </li>
+              <li class="burger-menu__item">
+                <a href="#" class="burger-menu__link">Этапы</a>
+              </li>
+              <li class="burger-menu__item">
+                <a href="#" class="burger-menu__link">Отзывы</a>
+              </li>
+              <li class="burger-menu__item">
+                <a href="#" class="burger-menu__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="header__left header-left">
           <a href="#" class="header__link">

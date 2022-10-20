@@ -17,3 +17,5 @@ Homework #6 — Adaptive Layout, Media queries
 
 Homework #7 — Slider, Tabs, Burger-menu, Accordion
 
+Homework #8 — 
+

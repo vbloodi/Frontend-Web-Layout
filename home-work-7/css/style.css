@@ -101,6 +101,15 @@ body {
   background: #fff;
 }
 
+body:not(.user-is-tabbing) a:focus,
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  border: none;
+  outline: none;
+}
+
 img,
 picture {
   width: 100%;
@@ -425,6 +434,10 @@ button {
   line-height: 1.375rem;
 }
 
+.section-work__button--default {
+  color: #e1670e;
+}
+
 .section-work__down {
   display: none;
 }
@@ -498,45 +511,57 @@ button {
 }
 
 .section-faq__title {
+  margin-bottom: 32px;
   font-size: 3rem;
   line-height: 3.6875rem;
 }
 
-.section-faq__list {
-  margin-top: 32px;
-}
-
-.section-faq__item {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 28px 0px;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
-}
-
-.section-faq__item:not(:last-child) {
-  border-bottom: none;
-}
-
 .section-faq__question {
-  margin-right: 60px;
+  position: relative;
+  padding: 39px 0px;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
+  border-top: 1px solid #cacaca;
 }
 
-/* .section-faq__button::after {
-  content: "";
-  display: block;
+.section-faq__accordion {
+  border-bottom: 1px solid #cacaca;
+}
+
+.ui-accordion-content {
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.section-faq__icon {
   position: absolute;
-  top: 0;
+  top: 31px;
   right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
-} */
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: url("../../home-work-6/img/accordion-icon.svg") center center
+    no-repeat;
+  background-color: #cacaca;
+  transition: transform, 0.5s ease-in-out;
+  transition: background-color, 0.1s ease-in-out;
+}
+
+.ui-state-active .section-faq__icon {
+  transform: rotate(45deg);
+}
+
+.section-faq__description {
+  max-width: 1003px;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.section-faq__description:first-child {
+  margin-bottom: 32px;
+}
 
 /* --- FOOTER --- */
 
@@ -695,6 +720,7 @@ button {
 .section-work__button,
 .section-work-down__button-more,
 .section-work-down__button-contract,
+.section-faq__question,
 .footer-nav__link,
 .footer-form__submit-button,
 .submit-checkbox,
@@ -880,14 +906,16 @@ button {
 
 /* --- TRANSITIONS-FAQ --- */
 
-.section-faq__item:hover {
+.section-faq__question:hover {
   color: #ff9900;
   border-top: 1px solid #ff9900;
-  border-bottom: 1px solid #ff9900;
+  cursor: pointer;
 }
 
-.section-faq__item:hover + .section-faq__item {
-  border-top: none;
+.section-faq__question:hover .section-faq__icon {
+  background: url("../../home-work-6/img/accordion-icon-white.svg") center
+    center no-repeat;
+  background-color: #ff9900;
 }
 
 /* --- TRANSITIONS-FOOTER --- */
@@ -1276,12 +1304,8 @@ button {
   .section-faq__container {
     margin-top: 80px;
   }
-  .section-faq__item {
-    padding: 29px 0px;
-  }
   .section-faq__question {
-    min-width: 756px;
-    margin-right: 100px;
+    margin-right: 0px;
     font-size: 1.25rem;
     line-height: 2rem;
   }
@@ -1469,12 +1493,7 @@ button {
   .section-faq__container {
     margin-top: 49px;
   }
-  .section-faq__item {
-    padding: 29px 0px;
-  }
   .section-faq__question {
-    min-width: 570px;
-    margin-right: 35px;
     font-size: 1.25rem;
     line-height: 2rem;
   }
@@ -1685,14 +1704,14 @@ button {
     font-size: 2.5rem;
     line-height: 2.75rem;
   }
-  .section-faq__item {
-    padding: 29px 0px;
-  }
   .section-faq__question {
-    max-width: 570px;
-    margin-right: 30px;
+    padding: 29px 0px;
     font-size: 1.125rem;
     line-height: 1.5rem;
+  }
+  .section-faq__icon {
+    width: 30px;
+    height: 30px;
   }
 
   /* --- 480-FOOTER --- */
@@ -2015,19 +2034,15 @@ button {
   .section-faq__list {
     margin-top: 16px;
   }
-  .section-faq__item {
-    padding: 30px 0px;
-  }
   .section-faq__question {
-    min-width: 245px;
-    margin-right: 20px;
+    padding: 30px 0px;
     font-size: 0.875rem;
     line-height: 1.5rem;
     font-weight: 500;
   }
-  .section-faq__button svg {
-    max-width: 30px;
-    max-height: 30px;
+  .section-faq__icon {
+    width: 30px;
+    height: 30px;
   }
 
   /* --- 320-FOOTER --- */

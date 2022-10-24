@@ -10,10 +10,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
-    />
+    /> -->
     <link rel="stylesheet" href="/resources/demos/style.css" />
   </head>
   <body>
@@ -38,7 +38,7 @@
               <svg
                 width="23"
                 height="25"
-                viewBox="0 0 23 25"
+                viewbox="0 0 23 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -327,22 +327,38 @@
             <nav class="section-work__nav">
               <ul class="section-work__list">
                 <li class="section-work__item">
-                  <button class="section-work__button" data-path="one">
+                  <button
+                    class="section-work__button section-work__button--default"
+                    data-default="one"
+                    data-path="one"
+                  >
                     1 шаг
                   </button>
                 </li>
                 <li class="section-work__item">
-                  <button class="section-work__button" data-path="two">
+                  <button
+                    class="section-work__button"
+                    data-default="two"
+                    data-path="two"
+                  >
                     2 шаг
                   </button>
                 </li>
                 <li class="section-work__item">
-                  <button class="section-work__button" data-path="three">
+                  <button
+                    class="section-work__button"
+                    data-default="three"
+                    data-path="three"
+                  >
                     3 шаг
                   </button>
                 </li>
                 <li class="section-work__item">
-                  <button class="section-work__button" data-path="four">
+                  <button
+                    class="section-work__button"
+                    data-default="four"
+                    data-path="four"
+                  >
                     4 шаг
                   </button>
                 </li>
@@ -553,172 +569,162 @@
         </div>
       </section>
       <section class="section__faq section-faq">
-        <div id="accordion">
-          <h3>Section 1</h3>
-          <div>
-            <p>
-              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam.
-              Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-              condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam
-              mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a
-              velit eu ante scelerisque vulputate.
-            </p>
-          </div>
-          <h3>Section 2</h3>
-          <div>
-            <p>
-              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit
-              amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris
-              turpis porttitor velit, faucibus interdum tellus libero ac justo.
-              Vivamus non quam. In suscipit faucibus urna.
-            </p>
-          </div>
-          <h3>Section 3</h3>
-          <div>
-            <p>
-              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque
-              lobortis. Phasellus pellentesque purus in massa. Aenean in pede.
-              Phasellus ac libero ac tellus pellentesque semper. Sed ac felis.
-              Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu
-              iaculis leo purus venenatis dui.
-            </p>
-            <ul>
-              <li>List item one</li>
-              <li>List item two</li>
-              <li>List item three</li>
-            </ul>
-          </div>
-          <h3>Section 4</h3>
-          <div>
-            <p>
-              Cras dictum. Pellentesque habitant morbi tristique senectus et
-              netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum
-              primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-              Aenean lacinia mauris vel est.
-            </p>
-            <p>
-              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat
-              lectus. Class aptent taciti sociosqu ad litora torquent per
-              conubia nostra, per inceptos himenaeos.
-            </p>
-          </div>
-        </div>
         <div class="section-faq__container">
           <h2 class="section-faq__title">Часто задаваемые вопросы</h2>
-          <ul class="section-faq__list">
-            <li class="section-faq__item">
-              <div class="section-faq__question">
-                Из чего формируется конечная стоимость проекта?
-              </div>
-              <button class="section-faq__button">
-                <svg
-                  width="50"
-                  height="50"
-                  viewbox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                    fill="black"
-                  />
-                </svg>
-              </button>
-            </li>
-            <li class="section-faq__item">
-              <div class="section-faq__question">
-                У меня есть свой проект. Сможем ли мы его доработать /
-                реализовать?
-              </div>
-              <button class="section-faq__button">
-                <svg
-                  width="50"
-                  height="50"
-                  viewbox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                    fill="black"
-                  />
-                </svg>
-              </button>
-            </li>
-            <li class="section-faq__item">
-              <div class="section-faq__question">
-                Я выбираю между разными компаниями. В чём ваше отличие?
-              </div>
-              <button class="section-faq__button">
-                <svg
-                  width="50"
-                  height="50"
-                  viewbox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                    fill="black"
-                  />
-                </svg>
-              </button>
-            </li>
-            <li class="section-faq__item">
-              <div class="section-faq__question">
-                Могу ли я делегировать вам работу / согласование с подрядчиком /
-                организацией?
-              </div>
-              <button class="section-faq__button">
-                <svg
-                  width="50"
-                  height="50"
-                  viewbox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                    fill="black"
-                  />
-                </svg>
-              </button>
-            </li>
-            <li class="section-faq__item">
-              <div class="section-faq__question">
-                Могу ли я вернуть деньги на каком-либо из этапов работ?
-              </div>
-              <button class="section-faq__button">
-                <svg
-                  width="50"
-                  height="50"
-                  viewbox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-                    fill="black"
-                  />
-                </svg>
-              </button>
-            </li>
-          </ul>
+          <div class="section-faq__accordion" id="accordion">
+            <h3 class="section-faq__question">
+              Из чего формируется конечная стоимость проекта?
+              <span class="section-faq__icon"></span>
+            </h3>
+            <div class="section-faq__content">
+              <p class="section-faq__description">
+                Являясь всего лишь частью общей картины, непосредственные
+                участники технического прогресса призывают нас  к новым
+                свершениям, которые, в свою очередь, должны быть своевременно
+                верифицированы. Но высококачественный прототип будущего проекта
+                является качественно новой ступенью первоочередных требований.
+                А ещё некоторые особенности внутренней политики, которые
+                представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут объявлены нарушающими
+                общечеловеческие нормы этики и морали. И нет сомнений, что явные
+                признаки победы институционализации призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть указаны
+                как претенденты на роль ключевых факторов.
+              </p>
+              <p class="section-faq__description">
+                Приятно, граждане, наблюдать, как некоторые особенности
+                внутренней политики могут быть призваны к ответу. Явные признаки
+                победы институционализации набирают популярность среди
+                определённых слоёв населения, а значит, должны быть объединены
+                в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть представлены
+                в исключительно положительном свете.
+              </p>
+            </div>
+            <h3 class="section-faq__question">
+              У меня есть свой проект. Сможем ли мы его доработать /
+              реализовать?
+              <span class="section-faq__icon"></span>
+            </h3>
+            <div class="section-faq__content">
+              <p class="section-faq__description">
+                Являясь всего лишь частью общей картины, непосредственные
+                участники технического прогресса призывают нас  к новым
+                свершениям, которые, в свою очередь, должны быть своевременно
+                верифицированы. Но высококачественный прототип будущего проекта
+                является качественно новой ступенью первоочередных требований.
+                А ещё некоторые особенности внутренней политики, которые
+                представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут объявлены нарушающими
+                общечеловеческие нормы этики и морали. И нет сомнений, что явные
+                признаки победы институционализации призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть указаны
+                как претенденты на роль ключевых факторов.
+              </p>
+              <p class="section-faq__description">
+                Приятно, граждане, наблюдать, как некоторые особенности
+                внутренней политики могут быть призваны к ответу. Явные признаки
+                победы институционализации набирают популярность среди
+                определённых слоёв населения, а значит, должны быть объединены
+                в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть представлены
+                в исключительно положительном свете.
+              </p>
+            </div>
+            <h3 class="section-faq__question">
+              Я выбираю между разными компаниями. В чём ваше отличие?
+              <span class="section-faq__icon"></span>
+            </h3>
+            <div class="section-faq__content">
+              <p class="section-faq__description">
+                Являясь всего лишь частью общей картины, непосредственные
+                участники технического прогресса призывают нас  к новым
+                свершениям, которые, в свою очередь, должны быть своевременно
+                верифицированы. Но высококачественный прототип будущего проекта
+                является качественно новой ступенью первоочередных требований.
+                А ещё некоторые особенности внутренней политики, которые
+                представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут объявлены нарушающими
+                общечеловеческие нормы этики и морали. И нет сомнений, что явные
+                признаки победы институционализации призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть указаны
+                как претенденты на роль ключевых факторов.
+              </p>
+              <p class="section-faq__description">
+                Приятно, граждане, наблюдать, как некоторые особенности
+                внутренней политики могут быть призваны к ответу. Явные признаки
+                победы институционализации набирают популярность среди
+                определённых слоёв населения, а значит, должны быть объединены
+                в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть представлены
+                в исключительно положительном свете.
+              </p>
+            </div>
+            <h3 class="section-faq__question">
+              Могу ли я делегировать вам работу / согласование с подрядчиком /
+              организацией?
+              <span class="section-faq__icon"></span>
+            </h3>
+            <div class="section-faq__content">
+              <p class="section-faq__description">
+                Являясь всего лишь частью общей картины, непосредственные
+                участники технического прогресса призывают нас  к новым
+                свершениям, которые, в свою очередь, должны быть своевременно
+                верифицированы. Но высококачественный прототип будущего проекта
+                является качественно новой ступенью первоочередных требований.
+                А ещё некоторые особенности внутренней политики, которые
+                представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут объявлены нарушающими
+                общечеловеческие нормы этики и морали. И нет сомнений, что явные
+                признаки победы институционализации призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть указаны
+                как претенденты на роль ключевых факторов.
+              </p>
+              <p class="section-faq__description">
+                Приятно, граждане, наблюдать, как некоторые особенности
+                внутренней политики могут быть призваны к ответу. Явные признаки
+                победы институционализации набирают популярность среди
+                определённых слоёв населения, а значит, должны быть объединены
+                в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть представлены
+                в исключительно положительном свете.
+              </p>
+            </div>
+            <h3 class="section-faq__question">
+              Могу ли я вернуть деньги на каком-либо из этапов работ?
+              <span class="section-faq__icon"></span>
+            </h3>
+            <div class="section-faq__content">
+              <p class="section-faq__description">
+                Являясь всего лишь частью общей картины, непосредственные
+                участники технического прогресса призывают нас  к новым
+                свершениям, которые, в свою очередь, должны быть своевременно
+                верифицированы. Но высококачественный прототип будущего проекта
+                является качественно новой ступенью первоочередных требований.
+                А ещё некоторые особенности внутренней политики, которые
+                представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут объявлены нарушающими
+                общечеловеческие нормы этики и морали. И нет сомнений, что явные
+                признаки победы институционализации призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть указаны
+                как претенденты на роль ключевых факторов.
+              </p>
+              <p class="section-faq__description">
+                Приятно, граждане, наблюдать, как некоторые особенности
+                внутренней политики могут быть призваны к ответу. Явные признаки
+                победы институционализации набирают популярность среди
+                определённых слоёв населения, а значит, должны быть объединены
+                в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым
+                свершениям, которые, в свою очередь, должны быть представлены
+                в исключительно положительном свете.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

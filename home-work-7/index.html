@@ -20,7 +20,11 @@
     <header class="header">
       <div class="header__container">
         <div class="burger__container">
-          <button id="burger-open" class="header__burger-button">
+          <button
+            aria-label="Открыть меню"
+            id="burger-open"
+            class="header__burger-button"
+          >
             <svg
               width="30"
               height="23"
@@ -34,7 +38,11 @@
             </svg>
           </button>
           <div id="burger-menu" class="header__burger-menu burger-menu">
-            <button id="burger-close" class="burger-menu__close">
+            <button
+              aria-label="Закрыть меню"
+              id="burger-close"
+              class="burger-menu__close"
+            >
               <svg
                 width="23"
                 height="25"
@@ -84,7 +92,7 @@
           <nav class="header__nav header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item">
-                <a href="#" class="header-nav__link">О нас</a>
+                <a href="#" class="header-nav__link" tabindex="1">О нас</a>
               </li>
               <li class="header-nav__item">
                 <a href="#" class="header-nav__link">Проекты</a>
@@ -100,7 +108,7 @@
               </li>
             </ul>
           </nav>
-          <button class="header__search-button">
+          <button aria-label="Найти" class="header__search-button">
             <svg
               width="24"
               height="24"
@@ -844,7 +852,10 @@
                 class="submit-checkbox"
                 required
               />
-              <label class="submit-checkbox__lable" for="submit-checkbox"
+              <label
+                aria-label="Согласен на обработку данных"
+                class="submit-checkbox__lable"
+                for="submit-checkbox"
                 >Согласен на обработку данных</label
               >
             </div>

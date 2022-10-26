@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Select</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+    />
+  </head>
+  <body>
+    <select name="test" id="">
+      <option value="">Выбор 1</option>
+      <option value="">Выбор 2</option>
+      <option value="">Выбор 3</option>
+    </select>
+
+    <select name="select" id="selectCustom">
+      <option value="">Выбор 1</option>
+      <option value="">Выбор 2</option>
+      <option value="">Выбор 3</option>
+    </select>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script>
+      const element = document.querySelector("#selectCustom");
+      const choices = new Choices(element, {
+        searchEnabled: false,
+      });
+    </script>
+  </body>
+</html>

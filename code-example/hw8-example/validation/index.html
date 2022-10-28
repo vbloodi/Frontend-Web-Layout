@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation</title>
+    <style></style>
+  </head>
+  <body>
+    <form action="" class="form">
+      <input
+        type="text"
+        name="Name"
+        placeholder="Name"
+        data-validate-field="name"
+      />
+      <input
+        type="tel"
+        name="tel"
+        placeholder="Phone number"
+        data-validate-field="phone"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        data-validate-field="mail"
+      />
+      <button>Send</button>
+    </form>
+    <script src="just-validate.min.js"></script>
+    <script src="inputmask.min.js"></script>
+    <script>
+      var selector = document.querySelector("input[type='tel");
+      var im = new Inputmask("+375 (99) 999-99-99");
+
+      im.mask(selector);
+
+      new JustVadidate(".form", {
+        rules: {
+          name: {
+            required: true,
+            minLength: 2,
+            maxLength: 30,
+          },
+          tel: {
+            required: true,
+            function: (name, value) => {
+              const phone = selector.inputmask.unmaskedvalue();
+              console.log(phone);
+              return Number(phone) && phone.length === 10;
+            },
+          },
+          mail: {
+            required: true,
+            email: true,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

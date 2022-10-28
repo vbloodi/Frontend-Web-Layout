@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Work #8 — Custom checkbox, scroll, tooltip and etc.</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-container">
+        <section class="custom-checkbox">
+          <div class="custom-checkbox__container">
+            <div class="custom-checkbox__title">Категории:</div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                checked="checked"
+                name="dino"
+                id="dino"
+              />
+              <label class="custom-checkbox__text" for="dino">Динозавры</label>
+              <span class="checkmark"></span>
+            </div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                name="bear"
+                id="bear"
+              />
+              <label class="custom-checkbox__text" for="bear">Медведи</label>
+              <span class="checkmark"></span>
+            </div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                name="roe"
+                id="roe"
+              />
+              <label class="custom-checkbox__text" for="roe">Косули</label>
+              <span class="checkmark"></span>
+            </div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                name="fox"
+                id="fox"
+              />
+              <label class="custom-checkbox__text" for="fox">Лисы</label>
+              <span class="checkmark"></span>
+            </div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                name="wolf"
+                id="wolf"
+              />
+              <label class="custom-checkbox__text" for="wolf">Волки</label>
+              <span class="checkmark"></span>
+            </div>
+            <div class="custom-checkbox__choice">
+              <input
+                class="custom-checkbox__checkbox"
+                type="checkbox"
+                name="deer"
+                id="deer"
+              />
+              <label class="custom-checkbox__text" for="deer"
+                >Олени и лоси</label
+              >
+              <span class="checkmark"></span>
+            </div>
+          </div>
+        </section>
+        <section class="custom-select">
+          <select name="select" id="selectCustom">
+            <option value="">Выбор 1</option>
+            <option value="">Выбор 2</option>
+            <option value="">Выбор 3</option>
+            <option value="">Выбор 4</option>
+            <option value="">Выбор 5</option>
+            <option value="">Выбор 6</option>
+          </select>
+        </section>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script>
+      const element = document.querySelector("#selectCustom");
+      const choices = new Choices(element, {
+        searchEnabled: false,
+      });
+    </script>
+  </body>
+</html>

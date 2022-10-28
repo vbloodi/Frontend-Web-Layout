@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooltip</title>
+    <style>
+      .tooltip {
+        position: relative;
+      }
+
+      .marker {
+        width: 20px;
+        height: 20px;
+        background: black;
+        border-radius: 50%;
+      }
+
+      .popup {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 250px;
+        margin-top: 10px;
+        padding: 15px;
+        background: black;
+        color: white;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .marker:hover + .popup,
+      .marker:focus + .popup {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tooltip">
+      <div class="marker" tabindex="0"></div>
+      <div class="popup">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
+        perspiciatis soluta odit, neque laudantium fugiat. Placeat officia eum
+        ad consequuntur!
+      </div>
+    </div>
+  </body>
+</html>

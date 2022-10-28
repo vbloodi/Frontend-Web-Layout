@@ -4,4 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
       collapsible: true,
     });
   });
+  //Refresh
+  $(".section-faq__accordion").accordion("refresh");
 });

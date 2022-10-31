@@ -15,6 +15,6 @@ Transformations
 
 Homework #6 — Adaptive Layout, Media queries
 
-Homework #7 — Basic JS in WEB
+Homework #7 — Slider, Tabs, Burger-menu, Accordion
 
 Homework #8 — Custom checkbox, scroll, select and etc.

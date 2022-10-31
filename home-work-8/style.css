@@ -120,6 +120,28 @@ html {
   margin-left: 58px;
   width: 176px;
   height: 39px;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333333;
+}
+
+.choices {
+  width: 176px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.choices__inner {
+  width: 176px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.choices__item {
   background-color: #fff;
   border-radius: 10px;
 }

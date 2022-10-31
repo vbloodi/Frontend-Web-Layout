@@ -11,11 +11,10 @@ Homework #3 — Photoshop Layout
 Homework #4 — Semantic Layout
 
 Homework #5 — BEM, Pseudo classes, Pseudo elements,
-            Transformations
-            
+Transformations
+
 Homework #6 — Adaptive Layout, Media queries
 
 Homework #7 — Slider, Tabs, Burger-menu, Accordion
 
 Homework #8 — Custom checkbox, scroll, select and etc.
-

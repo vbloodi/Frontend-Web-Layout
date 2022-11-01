@@ -118,30 +118,156 @@ html {
 .custom-select {
   margin-top: 70px;
   margin-left: 58px;
+  margin-right: 58px;
   width: 176px;
   height: 39px;
   font-size: 14px;
   line-height: 19px;
-  background-color: #fff;
-  border-radius: 10px;
   color: #333333;
 }
 
 .choices {
   width: 176px;
   height: 39px;
-  background-color: #fff;
+  background: #fff;
   border-radius: 10px;
 }
 
 .choices__inner {
   width: 176px;
   height: 39px;
+}
+
+/* .choices__item {
+} */
+
+/* Custom Map */
+
+.custom-map {
+  position: relative;
+  margin-top: 70px;
+  margin-right: 58px;
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
+
+.custom-map__text {
+  position: absolute;
+  top: -50px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: white;
+}
+
+/* Custom Scroll */
+
+.customScroll {
+  margin-top: 70px;
+  margin-right: 58px;
+  padding: 20px 30px 46px 29px;
+  width: 399px;
+  height: 310px;
+  font-size: 14px;
+  line-height: 24px;
   background-color: #fff;
+  color: #333;
+}
+.simplebar-content-wrapper {
+  overflow: auto;
+}
+
+/* Custom Validation */
+
+.custom-validation__container {
+  margin-top: 70px;
+  margin-right: 58px;
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
 }
 
-.choices__item {
-  background-color: #fff;
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 39px 30px;
+  width: 440px;
+  height: 410px;
+}
+
+.form input {
+  margin-bottom: 31px;
+  padding: 1px 0px 1px 20px;
+  width: 380px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999;
+  background: #fff;
+  border: 1px solid #ff5c00;
   border-radius: 10px;
+}
+
+.form-button {
+  padding: 17px 53px;
+  width: 192px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  background: #ff5c00;
+  border-radius: 10px;
+}
+
+/* Custom Tooltip */
+
+.custom-tooltip {
+  margin-top: 70px;
+}
+
+.custom-tooltip__first,
+.custom-tooltip__second {
+  background: #fff;
+  padding: 20px 78px 20px 29px;
+  margin-bottom: 29px;
+  width: 375px;
+  height: 160px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+
+.custom-tooltip__text {
+  max-width: 268px;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.marker {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #bcbcbc;
+  border-radius: 50%;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 163px;
+  margin-top: 10px;
+  padding: 7px 15px;
+  background: #666666;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.marker:hover + .popup,
+.marker:focus + .popup {
+  opacity: 1;
 }

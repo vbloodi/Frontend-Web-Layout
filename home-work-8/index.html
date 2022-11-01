@@ -11,6 +11,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
   </head>
   <body>
     <main class="main">
@@ -94,6 +99,79 @@
             <option value="">Гипс</option>
           </select>
         </section>
+        <section class="custom-map">
+          <div class="custom-map__text">
+            В качестве адреса для маркера используйте: Франция, Иль-де-Франс,
+            Париж, X округ Парижа, улица дю Фобур Сен Дени 54
+          </div>
+          <div id="yandexMap" style="width: 460px; height: 460px"></div>
+        </section>
+        <section class="custom-scroll">
+          <div class="customScroll" data-simplebar>
+            Сложно сказать, почему многие известные личности представлены в
+            исключительно положительном свете. Лишь активно развивающиеся страны
+            третьего мира будут объективно рассмотрены соответствующими
+            инстанциями. Мы вынуждены отталкиваться от того, что
+            высокотехнологичная концепция общественного уклада представляет
+            собой интересный эксперимент проверки глубокомысленных рассуждений.
+            Имеется спорная точка зрения, гласящая примерно следующее:
+            непосредственные участники технического прогресса освещают
+            чрезвычайно интересные особенности картины в целом, однако
+            конкретные выводы, разумеется, обнародованы. Значимость этих проблем
+            настолько очевидна, что социально-экономическое развитие, а также
+            свежий взгляд на привычные вещи - безусловно открывает новые
+            горизонты для первоочередных требований.
+          </div>
+        </section>
+        <section class="custom-validation">
+          <div class="custom-validation__container">
+            <form action="" class="form">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Имя*"
+                data-validate-field="name"
+              />
+              <input
+                type="tel"
+                name="tel"
+                placeholder="Телефон*"
+                data-validate-field="phone"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail*"
+                data-validate-field="mail"
+              />
+              <button class="form-button">Заказать</button>
+            </form>
+          </div>
+        </section>
+        <section class="custom-tooltip">
+          <div class="custom-tooltip__first">
+            <div class="custom-tooltip__text">
+              Следует отметить, что социально-экономическое развитие
+              способствует повышению качества переосмысления внешнеэкономических
+              политик.
+              <div class="tooltip">
+                <div class="marker" tabindex="0"></div>
+                <div class="popup">Глава 1, страница 12</div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-tooltip__second">
+            <div class="custom-tooltip__text">
+              Следует отметить, что социально-экономическое развитие
+              способствует повышению качества переосмысления внешнеэкономических
+              политик.
+              <div class="tooltip">
+                <div class="marker" tabindex="1"></div>
+                <div class="popup">Глава 2, страница 176</div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
@@ -101,6 +179,81 @@
       const element = document.querySelector("#selectCustom");
       const choices = new Choices(element, {
         searchEnabled: false,
+      });
+    </script>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      // Функция ymaps.ready() будет вызвана, когда
+      // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+      ymaps.ready(init);
+      function init() {
+        // Создание карты.
+        var myMap = new ymaps.Map("yandexMap", {
+          // Координаты центра карты.
+          // Порядок по умолчанию: «широта, долгота».
+          // Чтобы не определять координаты центра карты вручную,
+          // воспользуйтесь инструментом Определение координат.
+          center: [48.872185, 2.354224],
+          // Уровень масштабирования. Допустимые значения:
+          // от 0 (весь мир) до 19.
+          zoom: 16,
+        });
+
+        // Создание геообъекта с типом точка (метка).
+        var myGeoObject = new ymaps.GeoObject({
+          geometry: {
+            type: "Point", // тип геометрии - точка
+            coordinates: [55.8, 37.8], // координаты точки
+          },
+        });
+
+        var myPlacemark = new ymaps.Placemark(
+          [48.872185, 2.354224],
+          {},
+          {
+            iconLayout: "default#image",
+            iconImageHref: "cross.svg",
+            iconImageSize: [30, 42],
+            iconImageOffset: [-3, -42],
+          }
+        );
+
+        // Размещение геообъекта на карте.
+        // myMap.geoObjects.add(myGeoObject);
+        myMap.geoObjects.add(myPlacemark);
+      }
+    </script>
+    <script src="just-validate.min.js"></script>
+    <script src="inputmask.min.js"></script>
+    <script>
+      var selector = document.querySelector("input[type='tel");
+      var im = new Inputmask("+375 (99) 999-99-99");
+
+      im.mask(selector);
+
+      new JustVadidate(".form", {
+        rules: {
+          name: {
+            required: true,
+            minLength: 2,
+            maxLength: 30,
+          },
+          tel: {
+            required: true,
+            function: (name, value) => {
+              const phone = selector.inputmask.unmaskedvalue();
+              console.log(phone);
+              return Number(phone) && phone.length === 10;
+            },
+          },
+          mail: {
+            required: true,
+            email: true,
+          },
+        },
       });
     </script>
   </body>

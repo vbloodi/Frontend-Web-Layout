@@ -19,4 +19,4 @@ Homework #7 — Slider, Tabs, Burger-menu, Accordion
 
 Homework #8 — Custom checkbox, scroll, select and etc.
 
-Homework #9 — 
+Homework #9 — Grid

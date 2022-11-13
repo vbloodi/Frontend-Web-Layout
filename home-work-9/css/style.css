@@ -362,26 +362,15 @@ img {
   margin-top: 70px;
 }
 
-.section-services__list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .section-services__item {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 48%;
   margin-bottom: 24px;
   background: #ffffff;
   border-radius: 15px;
 }
 
-.section-services__item:not(:nth-child(2n)) {
-  margin-right: 24px;
-}
-
 .section-services__img {
-  width: 100%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -424,22 +413,14 @@ img {
   margin-top: 56px;
 }
 
-.section-benefits__list {
+.section-benefits__item {
   display: flex;
   flex-wrap: wrap;
-}
-
-.section-benefits__item {
   margin-bottom: 22px;
-  flex: 0 1 23%;
   max-height: 276px;
   max-width: 276px;
   background: #fff;
   border-radius: 15px;
-}
-
-.section-benefits__item:not(:nth-child(4n)) {
-  margin-right: 22px;
 }
 
 .section-benefits__icon {
@@ -461,24 +442,15 @@ img {
   margin-top: 58px;
 }
 
-.section-location__list {
+.section-location__item {
   display: flex;
   flex-wrap: wrap;
-}
-
-.section-location__item {
-  flex: 1 1 31.5%;
   margin-bottom: 24px;
   background: #fff;
   border-radius: 15px;
 }
 
-.section-location__item:not(:nth-child(3n)) {
-  margin-right: 24px;
-}
-
 .section-location__img {
-  min-width: 100%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -526,6 +498,7 @@ img {
 .section-location-more {
   display: flex;
   position: relative;
+  min-height: 100%;
   background: url("../../home-work-4/img/place_9_look-rest.jpg") no-repeat;
   background-size: cover;
   border-radius: 15px;

@@ -18,3 +18,7 @@ Homework #6 — Adaptive Layout, Media queries
 Homework #7 — Slider, Tabs, Burger-menu, Accordion
 
 Homework #8 — Custom checkbox, scroll, select and etc.
+
+Homework #9 — Grid
+
+Homework #10 — Test

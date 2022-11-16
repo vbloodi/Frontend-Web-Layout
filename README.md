@@ -21,4 +21,6 @@ Homework #8 — Custom checkbox, scroll, select and etc.
 
 Homework #9 — Grid
 
-Homework #10 — 
+Homework #10 — Free Hosting
+
+Homework #11 —

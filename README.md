@@ -1,5 +1,8 @@
 # FRONTEND
 
+## Code Basics Course — HTML (17/41)
+https://code-basics.com/ru/languages/html/lessons/img
+
 ## Frontend Course — Web Layout
 
 Homework #1 — Basic HTML

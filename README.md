@@ -3,6 +3,8 @@
 ## Code Basics Course — HTML (21/41)
 https://code-basics.com/ru/languages/html/lessons/meta
 
+## Code Basics Course — CSS (/)
+
 ## Frontend Course — Web Layout
 
 Homework #1 — Basic HTML

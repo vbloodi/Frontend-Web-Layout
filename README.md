@@ -1,9 +1,10 @@
 # FRONTEND
 
-## Code Basics Course — HTML (21/41)
-https://code-basics.com/ru/languages/html/lessons/meta
+## Code Basics Course — HTML (41/41) RU
+https://code-basics.com/ru/languages/html
 
-## Code Basics Course — CSS (/)
+## Code Basics Course — CSS (1/33) RU
+https://code-basics.com/ru/languages/css/lessons/introduction
 
 ## Frontend Course — Web Layout
 

@@ -6,8 +6,8 @@ https://code-basics.com/ru/languages/html
 ## Code Basics Course — CSS (33/33) RU
 https://code-basics.com/ru/languages/css
 
-## Code Basics Course — JS (1/72) RU
-https://code-basics.com/ru/languages/javascript/lessons/hello-world
+## Code Basics Course — JS (18/72) RU
+https://code-basics.com/ru/languages/javascript/lessons/encoding
 
 ## Frontend Course — Web Layout
 

@@ -8,8 +8,8 @@ https://code-basics.com/ru/languages/html
 ### Code Basics Course — CSS (33/33) RU
 https://code-basics.com/ru/languages/css
 
-### Code Basics Course — JS (61/72) RU
-https://code-basics.com/ru/languages/javascript/lessons/ternary-operator
+### Code Basics Course — JS (64/72) RU
+https://code-basics.com/ru/languages/javascript/lessons/aggregation-numbers
 
 ## Frontend Course — Web Layout
 

@@ -8,8 +8,8 @@ https://code-basics.com/ru/languages/html
 ### Code Basics Course — CSS (33/33) RU
 https://code-basics.com/ru/languages/css
 
-### Code Basics Course — JS (64/72) RU
-https://code-basics.com/ru/languages/javascript/lessons/aggregation-numbers
+### Code Basics Course — JS (69/72) RU
+https://code-basics.com/ru/languages/javascript/lessons/syntax-sugar
 
 ## Frontend Course — Web Layout
 

@@ -1,5 +1,8 @@
 # FRONTEND
 
+## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
+1. RSS Test — 97 / 100
+
 ## Frontend Course — Web Layout
 
 Homework #1 — Basic HTML

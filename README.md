@@ -3,6 +3,8 @@
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
 1. RSS Test — 100 / 100
 2. Git Test [RU] — 100 / 100
+3. CV#1. Markdown & Git — 100 / 100
+4. CV#2. HTML, CSS & Git Basics — 100 / 100
 
 ## Frontend Course — Web Layout
 

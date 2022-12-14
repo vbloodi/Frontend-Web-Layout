@@ -7,7 +7,7 @@
 4. CV#2. HTML, CSS & Git Basics — 100 / 100
 5. Test HTML Basics [RU] — 100 / 100
 6. Test CSS Basics [RU] — 100 / 100
-7. CV#3. CV. Cross Check — * / 100
+7. CV#3. CV. Cross Check — 0 / 100
 
 ## Frontend Course — Web Layout
 

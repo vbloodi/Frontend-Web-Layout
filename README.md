@@ -42,11 +42,8 @@ Transformations
 
 ## Code Basics Course
 
-### Code Basics Course — HTML (41/41) RU
-https://code-basics.com/ru/languages/html
+[### Code Basics Course — HTML (41/41) RU](https://code-basics.com/ru/languages/html)
 
-### Code Basics Course — CSS (33/33) RU
-https://code-basics.com/ru/languages/css
+[### Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
-### Code Basics Course — JS (72/72) RU
-https://code-basics.com/ru/languages/javascript
+[### Code Basics Course — JS (72/72) RU](https://code-basics.com/ru/languages/javascript)

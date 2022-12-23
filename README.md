@@ -10,7 +10,6 @@
 - [ ] CV#3. CV. Cross Check — 0 / 100
 - [ ] Test CSS Flex — 88 / 100
 - [ ] JS Basics [RU] — 95 / 100
-- [52m / 2:15h of JS Basics lecture](https://www.youtube.com/watch?v=PH37Zvp3vDY&list=PLzLiprpVuH8df24MzZp-l5QMsJWJbi9qP)
 
 ## Frontend Course — Web Layout
 
@@ -49,4 +48,4 @@ Transformations
 
 [Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
-[Code Basics Course — JS (4/72) RU/EN](https://code-basics.com/languages/javascript/lessons/testing)
+[Code Basics Course — JS (15/72) RU/EN](https://code-basics.com/languages/javascript/lessons/quotes)

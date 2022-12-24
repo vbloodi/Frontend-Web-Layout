@@ -7,7 +7,7 @@
 - [x] CV#2. HTML, CSS & Git Basics — 100 / 100
 - [x] Test HTML Basics [RU] — 100 / 100
 - [x] Test CSS Basics [RU] — 100 / 100
-- [ ] CV#3. CV. Cross Check — 0 / 100
+- [x] CV#3. CV. Cross Check — 120 / 120
 - [ ] Test CSS Flex — 88 / 100
 - [ ] JS Basics [RU] — 95 / 100
 

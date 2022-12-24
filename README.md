@@ -8,7 +8,7 @@
 - [x] Test HTML Basics [RU] — 100 / 100
 - [x] Test CSS Basics [RU] — 100 / 100
 - [x] CV#3. CV. Cross Check — 120 / 120
-- [ ] Test CSS Flex — 88 / 100
+- [x] Test CSS Flex — 100 / 100
 - [ ] JS Basics [RU] — 95 / 100
 
 ## Frontend Course — Web Layout
@@ -48,4 +48,4 @@ Transformations
 
 [Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
-[Code Basics Course — JS (18/72) RU/EN](https://code-basics.com/languages/javascript/lessons/encoding)
+[Code Basics Course — JS (28/72) RU/EN](https://code-basics.com/languages/javascript/lessons/interpolation)

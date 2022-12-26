@@ -48,4 +48,4 @@ Transformations
 
 [Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
-[Code Basics Course — JS (35/72) RU/EN](https://code-basics.com/languages/javascript/lessons/math)
+[Code Basics Course — JS (47/72) RU/EN](https://code-basics.com/languages/javascript/lessons/define-functions-syntax)

@@ -48,4 +48,4 @@ Transformations
 
 [Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
-[Code Basics Course — JS (55/72) RU/EN](https://code-basics.com/languages/javascript/lessons/logical-operators)
+[Code Basics Course — JS (63/72) RU/EN](https://code-basics.com/languages/javascript/lessons/while)

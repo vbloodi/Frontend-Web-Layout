@@ -9,7 +9,7 @@
 - [x] Test CSS Basics [RU] — 100 / 100
 - [x] CV#3. CV. Cross Check — 120 / 120
 - [x] Test CSS Flex — 100 / 100
-- [ ] JS Basics [RU] — 95 / 100
+- [ ] JS Basics [RU] — 98 / 100
 
 ## Frontend Course — Web Layout
 

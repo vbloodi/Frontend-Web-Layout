@@ -1,6 +1,8 @@
 # FRONTEND
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
+* Score Points - 149.6
+* Completed Tasks - 9 / 23
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100

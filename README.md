@@ -1,8 +1,8 @@
 # FRONTEND
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
-* Score Points - 149.6
-* Completed Tasks - 9 / 23
+* Score Points - 319.6
+* Completed Tasks - 13 / 23
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100
@@ -11,8 +11,13 @@
 - [x] Test CSS Basics [RU] — 100 / 100
 - [x] CV#3. CV. Cross Check — 120 / 120
 - [x] Test CSS Flex — 100 / 100
-- [ ] JS Basics [RU] — 98 / 100
-- [ ] Plants #1 - 0 / 100
+- [x] JS Basics [RU] — 98 / 100
+- [x] Plants #1 - 100 / 100
+- [x] Human Readable Number - 100 / 100
+- [x] Reverse Int - 100 / 100
+- [x] Codewars Part 1 - 50 / 50
+- [ ] Plants #2 - 0 / 100
+
 
 ## Frontend Course — Web Layout
 

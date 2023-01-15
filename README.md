@@ -17,6 +17,12 @@
 - [x] Reverse Int - 100 / 100
 - [x] Codewars Part 1 - 50 / 50
 - [ ] Plants #2 - 0 / 100
+- [ ] JS: Morse-decoder - 0 / 100
+- [ ] Towel Sort - 0 / 100
+- [ ] JS: Brackets - 0 / 100
+- [ ] Codewars Part 2 - 0 / 45
+- [ ] Plants #3 - 0 / 100
+- [ ] Codewars Part 3 - 0 / 50
 
 
 ## Frontend Course — Web Layout

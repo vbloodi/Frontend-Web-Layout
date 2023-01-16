@@ -63,3 +63,7 @@ Transformations
 [Code Basics Course — CSS (33/33) RU](https://code-basics.com/ru/languages/css)
 
 [Code Basics Course — JS (72/72) RU/EN](https://code-basics.com/languages/javascript)
+
+## Codewars
+
+[Codewars: Honor - 238](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

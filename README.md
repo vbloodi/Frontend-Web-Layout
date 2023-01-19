@@ -66,4 +66,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: Score (296)](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: Honor: 296](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

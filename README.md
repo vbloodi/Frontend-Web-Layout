@@ -66,4 +66,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: Honor: 368](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: Honor - 368](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

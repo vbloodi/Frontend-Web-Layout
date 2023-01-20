@@ -20,7 +20,7 @@
 - [ ] JS: Morse-decoder - 0 / 100
 - [ ] Towel Sort - 0 / 100
 - [ ] JS: Brackets - 0 / 100
-- [ ] Codewars Part 2 - 0 / 45
+- [x] Codewars Part 2 - 45 / 45
 - [ ] Plants #3 - 0 / 100
 - [ ] Codewars Part 3 - 0 / 50
 
@@ -66,4 +66,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: Honor: 296](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: Honor: 368](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

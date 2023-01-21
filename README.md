@@ -1,8 +1,8 @@
 # FRONTEND
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
-* Score Points - 319.6
-* Completed Tasks - 13 / 23
+* Score Points - 384.6
+* Completed Tasks - 16 / 23
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100
@@ -18,8 +18,8 @@
 - [x] Codewars Part 1 - 50 / 50
 - [ ] Plants #2 - 0 / 100
 - [ ] JS: Morse-decoder - 0 / 100
-- [ ] Towel Sort - 0 / 100
-- [ ] JS: Brackets - 0 / 100
+- [x] Towel Sort - 100 / 100
+- [x] JS: Brackets - 100 / 100
 - [x] Codewars Part 2 - 45 / 45
 - [ ] Plants #3 - 0 / 100
 - [ ] Codewars Part 3 - 0 / 50
@@ -66,4 +66,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: Honor - 368](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 401](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

@@ -17,7 +17,7 @@
 - [x] Reverse Int - 100 / 100
 - [x] Codewars Part 1 - 50 / 50
 - [ ] Plants #2 - 0 / 100
-- [ ] JS: Morse-decoder - 0 / 100
+- [x] JS: Morse-decoder - 100 / 100
 - [x] Towel Sort - 100 / 100
 - [x] JS: Brackets - 100 / 100
 - [x] Codewars Part 2 - 45 / 45

@@ -1,8 +1,8 @@
 # FRONTEND
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
-* Score Points - 384.6
-* Completed Tasks - 16 / 23
+* Score Points - 394.6
+* Completed Tasks - 17 / 23
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100
@@ -66,4 +66,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 401](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 425](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

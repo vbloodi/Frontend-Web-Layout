@@ -16,7 +16,7 @@
 - [x] Human Readable Number - 100 / 100
 - [x] Reverse Int - 100 / 100
 - [x] Codewars Part 1 - 50 / 50
-- [ ] Plants #2 - 0 / 100
+- [x] Plants #2 - 75 / 75
 - [x] JS: Morse-decoder - 100 / 100
 - [x] Towel Sort - 100 / 100
 - [x] JS: Brackets - 100 / 100

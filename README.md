@@ -3,7 +3,7 @@
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0
 * Score Points - 469.6 / 470
 * Completed Tasks - 18 / 23
-* Placement - 53 / 6589
+* Placement - 54 / 6589
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100
@@ -67,4 +67,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 437](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 468](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

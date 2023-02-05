@@ -4,6 +4,7 @@
 * Score Points - 469.6 / 470
 * Completed Tasks - 18 / 23
 * Placement - 54 / 6589
+
 - [x] RSS Test — 100 / 100
 - [x] Git Test [RU] — 100 / 100
 - [x] CV#1. Markdown & Git — 100 / 100
@@ -22,7 +23,7 @@
 - [x] Towel Sort - 100 / 100
 - [x] JS: Brackets - 100 / 100
 - [x] Codewars Part 2 - 45 / 45
-- [ ] Plants #3 - 0 / 100
+- [ ] Plants #3 - 100 / 100
 - [ ] Codewars Part 3 - 0 / 50
 
 
@@ -67,4 +68,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 542](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 545](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

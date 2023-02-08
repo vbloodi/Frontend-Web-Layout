@@ -29,28 +29,18 @@
 
 ## Frontend Course — Web Layout
 
-- Homework #1 — Basic HTML
-
-- Homework #2 — Basic CSS
-
-- Homework #3 — Photoshop Layout
-
-- Homework #4 — Semantic Layout
-
-- Homework #5 — BEM, Pseudo classes, Pseudo elements,
+- [x] Homework #1 — Basic HTML
+- [x] Homework #2 — Basic CSS
+- [x] Homework #3 — Photoshop Layout
+- [x] Homework #4 — Semantic Layout
+- [x] Homework #5 — BEM, Pseudo classes, Pseudo elements,
 Transformations
-
-- Homework #6 — Adaptive Layout, Media queries
-
-- Homework #7 — Slider, Tabs, Burger-menu, Accordion
-
-- Homework #8 — Custom checkbox, scroll, select and etc.
-
-- Homework #9 — Grid
-
-- Homework #10 — Free Hosting
-
-- Homework #11 — Animations
+- [x] Homework #6 — Adaptive Layout, Media queries
+- [x] Homework #7 — Slider, Tabs, Burger-menu, Accordion
+- [x] Homework #8 — Custom checkbox, scroll, select and etc.
+- [x] Homework #9 — Grid
+- [x] Homework #10 — Free Hosting
+- [x] Homework #11 — Animations
 
 
 ## Frontend Course — JavaScript

@@ -45,7 +45,7 @@ Transformations
 
 ## Frontend Course — JavaScript
 
-- [x] Homework #1 — 
+- [ ] Homework #1 — 
 
 
 ## Code Basics Course

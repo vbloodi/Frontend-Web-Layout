@@ -23,8 +23,8 @@
 - [x] Towel Sort - 100 / 100
 - [x] JS: Brackets - 100 / 100
 - [x] Codewars Part 2 - 45 / 45
-- [ ] Plants #3 - 100 / 100
-- [ ] Codewars Part 3 - 0 / 50
+- [x] Plants #3 - 100 / 100
+- [x] Codewars Part 3 - 50 / 50
 
 
 ## Frontend Course — Web Layout
@@ -58,4 +58,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 566](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 587](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

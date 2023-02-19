@@ -29,7 +29,7 @@
 
 ## Frontend Course — Web Layout
 
-- [x] [Homework #1 — Basic HTML](HTML + CSS — Basic/home-work-1/index.html)
+- [x] [Homework #1 — Basic HTML](/HTML + CSS — Basic/home-work-1/index.html)
 - [x] Homework #2 — Basic CSS
 - [x] Homework #3 — Photoshop Layout
 - [x] Homework #4 — Semantic Layout

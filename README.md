@@ -5,7 +5,10 @@
 * Placement - ** / **
 
 - [x] RSS Test — 100 / 100 (×0.1)
+- [ ]	CV#1. Markdown & Git — 0 / 100 (×0.1)
+- [ ]	CV#2. HTML, CSS & Git Basics — 0 / 100 (×0.1)
 - [x]	Git Test [RU] — 91 / 100 (×0.1)
+- [x] Codejam#1 2023Q1 — 140 / 140 (x1)
 
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0 --- Done!

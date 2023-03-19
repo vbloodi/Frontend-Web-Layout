@@ -48,4 +48,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 683](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 686](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

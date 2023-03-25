@@ -51,4 +51,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 704](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 722](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

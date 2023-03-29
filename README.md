@@ -5,9 +5,9 @@
 * Placement - ** / **
 
 - [x] RSS Test — 100 / 100 (×0.1)
-- [ ]	CV#1. Markdown & Git — 0 / 100 (×0.1)
-- [ ]	CV#2. HTML, CSS & Git Basics — 0 / 100 (×0.1)
-- [x]	Git Test [RU] — 91 / 100 (×0.1)
+- [x]	CV#1. Markdown & Git — 100 / 100 (×0.1)
+- [x]	CV#2. HTML, CSS & Git Basics — 100 / 100 (×0.1)
+- [x]	Git Test [RU] — 100 / 100 (×0.1)
 - [x] Codejam#1 2023Q1 — 140 / 140 (x1)
 - [ ] 
 - [ ] 

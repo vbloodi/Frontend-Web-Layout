@@ -1,6 +1,6 @@
 # FRONTEND
 ## Rolling Scopes JavaScript/Front-end 2023Q1 — Stage #1
-* Score Points - 47.1 / 20
+* Score Points - 154.7 / 192.3
 * Completed Tasks - 3 / 61
 * Placement - ** / **
 
@@ -51,4 +51,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 722](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 730](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

@@ -1,24 +1,13 @@
 # FRONTEND
 ## Rolling Scopes JavaScript/Front-end 2023Q1 — Stage #1
-* Score Points - 154.7 / 192.3
-* Completed Tasks - 3 / 61
+* Score Points - 609.7 / 689.8
+* Completed Tasks - 32 / 62
 * Placement - ** / **
-
-- [x] RSS Test — 100 / 100 (×0.1)
-- [x]	CV#1. Markdown & Git — 100 / 100 (×0.1)
-- [x]	CV#2. HTML, CSS & Git Basics — 100 / 100 (×0.1)
-- [x]	Git Test [RU] — 100 / 100 (×0.1)
-- [x] Codejam#1 2023Q1 — 140 / 140 (x1)
-- [ ] 
-- [ ] 
-- [ ] 
-
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0 --- Done!
 * Score Points - 694.8 / 780
 * Completed Tasks - 21 / 23
 * Placement - 556 / 6651
-
 
 ## Frontend Course — Web Layout
 
@@ -51,4 +40,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 1021](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 1027](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

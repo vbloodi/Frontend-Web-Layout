@@ -40,4 +40,4 @@ Transformations
 
 ## Codewars
 
-[CodeWars: 1027](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)
+[CodeWars: 1039](https://www.codewars.com/users/rsschool_7b238261a8cc7bc1)

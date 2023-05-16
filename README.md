@@ -1,7 +1,7 @@
 # FRONTEND
 ## Rolling Scopes JavaScript/Front-end 2023Q1 — Stage #1
-* Score Points - 609.7 / 689.8
-* Completed Tasks - 32 / 62
+* Score Points - 618.5 / 689.8
+* Completed Tasks - 33 / 62
 * Placement - ** / **
 
 ## Rolling Scopes JS/FE Pre-School 2022Q4 — Stage #0 --- Done!
